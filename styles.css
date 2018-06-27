@@ -8,6 +8,6 @@ body {
 	border-radius: 5px;
 }
 
-header section {
-	font-size: 30px;
+.header-info {
+	margin-left: 10px;
 }
