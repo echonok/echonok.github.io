@@ -3,6 +3,12 @@ body {
 	
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 header {
 	width: 600px;
 	border: 2px solid black;
@@ -16,7 +22,7 @@ header {
 	float: left;
 	width: 120px;
 	border-radius: 5px;
-	margin: 10px;
+	margin: 0 10px;
 }
 
 .header-info {
