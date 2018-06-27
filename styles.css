@@ -1,5 +1,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	max-width: 1020;
+	background-color: #7E95D0;
+	padding: 10px;
 }
 
 .almost-logo {
