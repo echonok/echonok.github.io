@@ -73,3 +73,8 @@ input[type="reset"] {
 .footer-powered {
 	float: right;
 }
+
+.container {
+	margin: 0 auto;
+	width: 900px;
+}
