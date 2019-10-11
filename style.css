@@ -105,8 +105,11 @@ ul li {
 }
 
 .tariffs__list {
-  position: relative;
-  
+
+}
+
+.tariffs__feature {
+  list-style: disc;
 }
 
 .tariffs__item {
