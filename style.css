@@ -47,3 +47,33 @@ footer {
   color: inherit;
   font-weight: bold;
 }
+
+.contacts__hours {
+  color: inherit;
+  font-size: 14px;
+  opacity: .7;
+}
+
+.contacts__hours-text {
+  color: inherit;
+  font-size: 14px;
+  text-decoration: underline;
+  opacity: .7;
+}
+
+.contacts__workhours {
+  display: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.page-content {
+  width: 800px;
+}
