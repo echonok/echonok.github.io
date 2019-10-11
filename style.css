@@ -59,6 +59,7 @@ footer {
   font-size: 14px;
   text-decoration: underline;
   opacity: .7;
+  font-weight: bold;
 }
 
 .contacts__workhours {
@@ -75,5 +76,40 @@ ul li {
 }
 
 .page-content {
+  position: relative;
+}
+
+.sidebar,
+.main-content {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main-content {
   width: 800px;
+  left: 199px;
+}
+
+.sidebar {
+  width: 200px;
+}
+
+.header__bigpic {
+  max-width: 1007px;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 49px;
+  font-weight: bold;
+}
+
+.tariffs__list {
+  position: relative;
+}
+
+.tariffs__item {
+  display: inline-block;
+  width: 250px;
+  vertical-align: top;
 }
