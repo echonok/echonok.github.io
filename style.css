@@ -109,9 +109,7 @@ ul li {
   font-weight: bold;
 }
 
-.tariffs__list {
-
-}
+.tariffs__list {}
 
 .tariffs__feature {
   list-style: disc;
@@ -130,9 +128,7 @@ ul li {
   text-align: center;
 }
 
-.tariff__features ul li {
-  
-}
+.tariff__features ul li {}
 
 .sidebar {
   padding-top: 14px;
@@ -185,7 +181,7 @@ ul li {
 }
 
 .news__pic {
-  
+
   /* max-width: 100%;
   max-height: 100%; */
   object-fit: cover;
@@ -262,9 +258,11 @@ ul li {
 .socialnetworks__icon-google {
   background: url('./img/icons/twitter.svg') no-repeat center center / contain;
 }
+
 .socialnetworks__icon-twitter {
   background: url('./img/icons/twitter.svg') no-repeat center center / contain;
 }
+
 .socialnetworks__icon-email {
   background: url('./img/icons/twitter.svg') no-repeat center center / contain;
 }
