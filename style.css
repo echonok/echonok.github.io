@@ -221,30 +221,50 @@ ul li {
   left: 19px;
 }
 
-.footer__socialnetworks {
+.socialnetworks {
   position: absolute;
   top: 20px;
   right: 20px;
   margin: 0;
 }
 
-.footer__social-text {
+.socialnetworks__text {
   margin: 0;
-}
-
-.footer__container-logo {
-  margin: auto;
-}
-
-.footer__social-text {
   font-size: 14px;
   color: #ffffff;
 }
 
-.footer__social-item {
+.socialnetworks__list {
   display: inline-block;
 }
 
-.footer__social-icon {
+.socialnetworks__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+.socialnetworks__icon {
   height: 20px;
+  width: 20px;
+  display: block;
+}
+
+.socialnetworks__icon-vkontakte {
+  background: url('./img/icons/twitter.svg') no-repeat center center / contain;
+}
+
+.socialnetworks__icon-facebook {
+  background: url('./img/icons/twitter.svg') no-repeat center center / contain;
+}
+
+.socialnetworks__icon-google {
+  background: url('./img/icons/twitter.svg') no-repeat center center / contain;
+}
+.socialnetworks__icon-twitter {
+  background: url('./img/icons/twitter.svg') no-repeat center center / contain;
+}
+.socialnetworks__icon-email {
+  background: url('./img/icons/twitter.svg') no-repeat center center / contain;
 }
