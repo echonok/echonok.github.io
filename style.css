@@ -150,7 +150,7 @@ ul li {
   display: inline-block;
   vertical-align: top;
   width: 200px;
-  padding: 41px 25px 48px 25px;
+  padding: 41px 30px 48px 30px;
   border: solid 1px #e8e9ed;
   color: #221f1f;
 }
@@ -342,3 +342,8 @@ ul li {
   margin-right: auto
 }
 
+h3 {
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 1em;
+}
