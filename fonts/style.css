@@ -10,13 +10,22 @@
   font-display: block;
 }
 
-.icon {
-  font-size: 20px;
+.icon,
+.social-icon {
   text-decoration: none;
   display: inline-block;
 }
 
-.icon:before {
+.icon {
+  font-size: 20px;
+}
+
+.social-icon {
+  font-size: 9px;
+}
+
+.icon::before,
+.social-icon::before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'menu-fonts' !important;
   speak: none;
