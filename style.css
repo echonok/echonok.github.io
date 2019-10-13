@@ -47,11 +47,6 @@ footer {
   margin-bottom: 13px;
 }
 
-.footer__container {
-  height: 77px;
-  position: relative;
-}
-
 .header__container .logo {
   position: absolute;
   top: 21px;
@@ -83,7 +78,8 @@ footer {
   opacity: .7;
 }
 
-.contacts__hours-text {
+.contacts__hours-text,
+.footer__author {
   color: inherit;
   font-size: 14px;
   text-decoration: underline;
@@ -254,11 +250,26 @@ ul li {
 
 /* footer ================================== */
 
+.footer__container {
+  height: 77px;
+  position: relative;
+}
+
 .footer__container-author {
   position: absolute;
   top: 14px;
   left: 19px;
+  color: white;
+  text-decoration: none;
 }
+
+.footer__container-logo {
+  max-width: 120px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
 
 /* social networks ================================== */
 
@@ -303,6 +314,11 @@ ul li {
 }
 
 /* paginator ================================== */
+
+.pagination {
+  max-width: 350px;
+  margin: 60px auto;
+}
 
 .pagination__pager {
   display: inline;
