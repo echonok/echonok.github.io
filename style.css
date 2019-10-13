@@ -158,37 +158,28 @@ ul li {
   padding-top: 14px;
 }
 
-.nav__link::before {
-  content: "";
+.nav__item {
   display: inline-block;
+  color: #4b73b5;
   vertical-align: middle;
-  width: 24px;
-  height: 36px;
-  margin-right: 17px;
-  background: center center / contain no-repeat;
+}
+
+.nav__item-icon {
+  display: inline-block;
+  width: 30px;
+  text-align: right;
+  color: inherit;
 }
 
 .nav__link {
   font-size: 12px;
   font-weight: bold;
-  color: #4b73b5;
   letter-spacing: 2.4px;
   text-decoration: none;
   margin-left: 19px;
-}
-
-.nav__link--icon--main::before {
-  background-image: url('./img/menu_plane.svg');
-  fill: #4b73b5;
-}
-
-
-.nav__link--icon--reviews::before {
-  background-image: url('./img/menu_star.svg');
-}
-
-.nav__link--icon--crew::before {
-  background-image: url('./img/menu_crew.svg');
+  color: inherit;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .news__item {
@@ -313,3 +304,14 @@ ul li {
   color: #221f1f;
 }
 
+.tariffs__logo-area {
+}
+
+.tariffs__logo {
+  width: 21px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #4b73b5;
+  padding: 26px;
+  border-radius: 50%;
+}

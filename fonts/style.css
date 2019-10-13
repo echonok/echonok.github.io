@@ -10,6 +10,12 @@
   font-display: block;
 }
 
+.icon {
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .icon:before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'menu-fonts' !important;
@@ -28,14 +34,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.menu-fonts-menu_star:before {
+.menu-fonts-menu_plane:before {
+  content: "\e902";
+}
+.menu-fonts-menu_reviews:before {
   content: "\e900";
 }
 .menu-fonts-menu_crew:before {
   content: "\e901";
-}
-.menu-fonts-menu_plane:before {
-  content: "\e902";
 }
 .menu-fonts-ico_vk:before {
   content: "\e903";
