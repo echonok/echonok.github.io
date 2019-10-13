@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'menu-fonts';
+  src:  url('fonts/menu-fonts.eot?a8j7ml');
+  src:  url('fonts/menu-fonts.eot?a8j7ml#iefix') format('embedded-opentype'),
+    url('fonts/menu-fonts.ttf?a8j7ml') format('truetype'),
+    url('fonts/menu-fonts.woff?a8j7ml') format('woff'),
+    url('fonts/menu-fonts.svg?a8j7ml#menu-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'menu-fonts' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-fonts-menu_star:before {
+  content: "\e900";
+}
+.menu-fonts-menu_crew:before {
+  content: "\e901";
+}
+.menu-fonts-menu_plane:before {
+  content: "\e902";
+}
+.menu-fonts-ico_vk:before {
+  content: "\e903";
+}
+.menu-fonts-ico_fb:before {
+  content: "\e904";
+}
+.menu-fonts-ico_g:before {
+  content: "\e905";
+}
+.menu-fonts-ico_mail:before {
+  content: "\e906";
+}
+.menu-fonts-ico_tw:before {
+  content: "\e907";
+}

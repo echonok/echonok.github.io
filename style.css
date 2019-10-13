@@ -174,20 +174,20 @@ ul li {
   color: #4b73b5;
   letter-spacing: 2.4px;
   text-decoration: none;
+  margin-left: 19px;
 }
 
-
-
 .nav__link--icon--main::before {
-  background-image: url('./img/air-freight.svg');
+  background-image: url('./img/menu_plane.svg');
+  fill: #4b73b5;
 }
 
 .nav__link--icon--reviews::before {
-  background-image: url('./img/air-freight.svg');
+  background-image: url('./img/menu_star.svg');
 }
 
 .nav__link--icon--crew::before {
-  background-image: url('./img/air-freight.svg');
+  background-image: url('./img/menu_crew.svg');
 }
 
 .news__item {
@@ -291,11 +291,23 @@ ul li {
   background: url('./img/icons/twitter.svg') no-repeat center center / contain;
 }
 
+.pagination__display {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.pagination__button-prev {
+  display: inline-block;
+  vertical-align: top;
+  width: 25px;
+  border: solid 1px #e8e9ed;
+  color: #221f1f;
+}
+
 .pagination__item {
   display: inline-block;
   vertical-align: top;
-  width: 200px;
-  padding: 41px 25px 48px 25px;
+  width: 25px;
   border: solid 1px #e8e9ed;
   color: #221f1f;
 }
