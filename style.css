@@ -208,6 +208,8 @@ ul li {
   display: inline-block;
 }
 
+/* news ================================== */
+
 .news__item {
   vertical-align: top;
   display: inline-block;
@@ -250,11 +252,15 @@ ul li {
   font-size: 18px;
 }
 
+/* footer ================================== */
+
 .footer__container-author {
   position: absolute;
   top: 14px;
   left: 19px;
 }
+
+/* social networks ================================== */
 
 .socialnetworks {
   position: absolute;
@@ -296,6 +302,8 @@ ul li {
   line-height: 1.2em;
 }
 
+/* paginator ================================== */
+
 .pagination__pager {
   display: inline;
 }
@@ -324,7 +332,6 @@ ul li {
   border: solid 1px #e8e9ed;
   color: #221f1f;
 }
-
 
 .tariffs__logo {
   width: 32px;
