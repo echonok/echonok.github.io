@@ -182,6 +182,7 @@ ul li {
   fill: #4b73b5;
 }
 
+
 .nav__link--icon--reviews::before {
   background-image: url('./img/menu_star.svg');
 }
