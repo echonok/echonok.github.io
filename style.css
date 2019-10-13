@@ -136,7 +136,14 @@ ul li {
 .tariffs__list {}
 
 .tariffs__feature {
-  list-style: disc;
+  list-style: none;
+}
+
+.tariffs__feature::before {
+  content: "•";
+  display: inline-block;
+  color: inherit;
+  margin-right: 30px;
 }
 
 .tariffs__item {
@@ -153,6 +160,25 @@ ul li {
 }
 
 .tariff__features ul li {}
+
+.tariffs__price {
+  display:inline-block;
+  vertical-align: middle;
+  width: 50px;
+}
+
+.tariffs__price-currency,
+.tariffs__price-number {
+  
+}
+
+.tariffs__price-currency {
+  font-size: 25px;
+  
+}
+.tariffs__price-number {
+  font-size: 40px;
+}
 
 .sidebar {
   padding-top: 14px;
@@ -197,9 +223,6 @@ ul li {
 }
 
 .news__pic {
-
-  /* max-width: 100%;
-  max-height: 100%; */
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -308,10 +331,14 @@ ul li {
 }
 
 .tariffs__logo {
-  width: 21px;
+  width: 32px;
   display: inline-block;
   vertical-align: middle;
   background-color: #4b73b5;
-  padding: 26px;
+  padding: 20px;
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
 }
+
