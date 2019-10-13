@@ -293,26 +293,35 @@ ul li {
   vertical-align: middle;
 }
 
+pagination__pager {
+  display: inline;
+}
+
 .pagination__display {
-  display: inline-block;
+  display: inline;
   vertical-align: top;
 }
 
 .pagination__button-prev {
-  display: inline-block;
+  display: inline;
   vertical-align: top;
   width: 25px;
   border: solid 1px #e8e9ed;
   color: #221f1f;
 }
 
+.pagination__list {
+  display: inline;
+}
+
 .pagination__item {
-  display: inline-block;
+  display: inline;
   vertical-align: top;
   width: 25px;
   border: solid 1px #e8e9ed;
   color: #221f1f;
 }
+
 
 .tariffs__logo {
   width: 32px;
