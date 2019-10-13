@@ -283,17 +283,20 @@ ul li {
 .socialnetworks__icon {
   display: inline-block;
   background-color: white;
-  padding: 10px;
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5px;
+  padding: 0px;
   text-align: center;
   color: #4b73b5;
   vertical-align: middle;
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2em;
 }
 
-pagination__pager {
+.pagination__pager {
   display: inline;
 }
 
@@ -341,6 +344,3 @@ h3 {
   font-size: 1em;
 }
 
-.social-icon-vk {
-  background-image: url('./img/icons/ico_vk.svg');
-}
