@@ -227,6 +227,15 @@ ul li {
   display: inline-block;
 }
 
+.nav__link_active {
+  color: #221f1f;
+}
+
+.nav__link:hover {
+  color: #221f1f;
+  transition: 1s;
+}
+
 /* news ================================== */
 
 .news__item {
@@ -338,7 +347,7 @@ ul li {
 
 .socialnetworks__icon {
   display: inline-block;
-  background-color: white;
+  background-color:#d2def3;
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -350,6 +359,15 @@ ul li {
   width: 1.2em;
   height: 1.2em;
   line-height: 1.2em;
+}
+
+.socialnetworks__icon_active {
+  background-color:#ffffff;
+}
+
+.socialnetworks__icon:hover {
+  background-color:#ffffff;
+  transition: 1s;
 }
 
 /* paginator ================================== */
