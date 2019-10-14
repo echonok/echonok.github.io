@@ -1,5 +1,5 @@
 h3 {
-  margin-top: 0px;
+  margin: 0px auto;
   padding: 0px;
   font-size: 1em;
 }
@@ -104,11 +104,16 @@ ul li {
 .header__bigpic {
   max-width: 1007px;
   object-fit: contain;
+  margin-bottom: 16px;
 }
 
 .title {
   font-size: 49px;
   font-weight: bold;
+}
+
+.tariffs {
+  margin: 27px auto 61px;
 }
 
 .tariffs__logo {
@@ -144,12 +149,20 @@ ul li {
   vertical-align: top;
   width: 200px;
   padding: 41px 30px 48px 30px;
-  border: solid 1px #e8e9ed;
   color: #221f1f;
 }
 
-.tariffs__item span {
-  text-align: center
+.tariffs__item_active {
+  border: solid 1px #e8e9ed;
+}
+
+.tariffs__item>span {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 32px auto;
 }
 
 .tariffs__desc p {
@@ -158,13 +171,13 @@ ul li {
 
 .tariffs__price {
   display: inline-block;
-  vertical-align: middle;
-  width: 50px;
+  text-align: center;
+  width: 100%;
+  margin-top: 35px;
 }
 
 .tariffs__price-currency {
   font-size: 25px;
-
 }
 
 .tariffs__price-number {
@@ -214,6 +227,13 @@ ul li {
 .news__item {
   vertical-align: top;
   display: inline-block;
+  border-bottom: 2px solid #f5f5f5;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.news__item:last-child {
+  border-bottom: 0;
 }
 
 .news__pic-area {
@@ -257,6 +277,7 @@ ul li {
   color: #221f1f;
   font-size: 18px;
   font-weight: 300;
+  margin: 0px;
 }
 
 /* footer ================================== */
@@ -330,7 +351,7 @@ ul li {
 
 .pagination {
   max-width: 500px;
-  margin: 60px auto;
+  margin: 40px auto 60px;
   font-size: 14px;
 }
 
