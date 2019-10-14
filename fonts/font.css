@@ -69,13 +69,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon_type_plane:before {
+.icon_plane:before {
   content: "\e902";
 }
-.icon_type_reviews:before {
+.icon_reviews:before {
   content: "\e900";
 }
-.icon_type_crew:before {
+.icon_crew:before {
   content: "\e901";
 }
 .menu-fonts-ico_vk:before {

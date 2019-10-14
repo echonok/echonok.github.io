@@ -134,7 +134,7 @@ ul li {
   margin-right: auto
 }
 
-.tariff__features p {
+.tariffs__description {
   font-weight: 300;
 }
 
@@ -162,7 +162,7 @@ ul li {
   border: solid 1px #e8e9ed;
 }
 
-.tariffs__item>span {
+.tariffs__title {
   display: inline-block;
   text-align: center;
   width: 100%;
