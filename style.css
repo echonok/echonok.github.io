@@ -99,7 +99,9 @@ ul li {
 
 .sidebar {
   width: 200px;
+  padding-top: 1.7em;
 }
+
 
 .header__bigpic {
   max-width: 1007px;
@@ -182,10 +184,6 @@ ul li {
 
 .tariffs__price-number {
   font-size: 40px;
-}
-
-.sidebar {
-  padding-top: 14px;
 }
 
 .nav__item {
