@@ -167,8 +167,12 @@ ul li {
   margin: 32px auto;
 }
 
+.tariffs__desc {
+}
+
 .tariffs__desc p {
   text-align: center;
+  margin-top: 0px;
 }
 
 .tariffs__price {
