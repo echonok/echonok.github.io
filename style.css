@@ -164,10 +164,9 @@ ul li {
   width: 100%;
   text-transform: uppercase;
   font-weight: bold;
-  margin: 32px auto;
-}
+  letter-spacing: 0.2em;
+  margin: 2em auto 1.4em;
 
-.tariffs__desc {
 }
 
 .tariffs__desc p {
