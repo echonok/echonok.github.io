@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('./fonts/Roboto-LightItalic.woff2') format('woff2'),
-      url('./fonts/Roboto-LightItalic.woff') format('woff');
+    url('./fonts/Roboto-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('./fonts/Roboto-Bold.woff2') format('woff2'),
-      url('./fonts/Roboto-Bold.woff') format('woff');
+    url('./fonts/Roboto-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
 @font-face {
   font-family: 'Roboto';
   src: url('./fonts/Roboto-Light.woff2') format('woff2'),
-      url('./fonts/Roboto-Light.woff') format('woff');
+    url('./fonts/Roboto-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
@@ -158,20 +158,16 @@ ul li {
 .tariff__features ul li {}
 
 .tariffs__price {
-  display:inline-block;
+  display: inline-block;
   vertical-align: middle;
   width: 50px;
 }
 
-.tariffs__price-currency,
-.tariffs__price-number {
-  
-}
-
 .tariffs__price-currency {
   font-size: 25px;
-  
+
 }
+
 .tariffs__price-number {
   font-size: 40px;
 }
@@ -318,23 +314,37 @@ ul li {
 .pagination {
   max-width: 350px;
   margin: 60px auto;
+  font-size: 14px;
 }
 
-.pagination__pager {
-  display: inline;
-}
 
 .pagination__display {
   display: inline;
   vertical-align: top;
+  color: #656464;
 }
 
-.pagination__button-prev {
+.pagination__pager {
+  display: inline;
+
+}
+
+.pagination__link {
+  text-decoration: none;
+}
+
+.pagination__button-prev,
+.pagination__button-next {
   display: inline;
   vertical-align: top;
   width: 25px;
   border: solid 1px #e8e9ed;
   color: #221f1f;
+
+}
+
+pagination__link {
+  text-decoration: none;
 }
 
 .pagination__list {
@@ -366,4 +376,3 @@ h3 {
   padding: 0px;
   font-size: 1em;
 }
-
