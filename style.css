@@ -115,7 +115,11 @@ ul li {
 }
 
 .tariffs {
-  margin: 27px auto 61px;
+  margin: auto auto 61px;
+}
+
+.tariffs__list {
+  margin-top: 1.3em;
 }
 
 .tariffs__logo {
