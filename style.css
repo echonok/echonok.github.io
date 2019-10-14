@@ -1,25 +1,7 @@
-@font-face {
-  font-family: 'Roboto';
-  src: url('./fonts/Roboto-LightItalic.woff2') format('woff2'),
-    url('./fonts/Roboto-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('./fonts/Roboto-Bold.woff2') format('woff2'),
-    url('./fonts/Roboto-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('./fonts/Roboto-Light.woff2') format('woff2'),
-    url('./fonts/Roboto-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
+h3 {
+  margin-top: 0px;
+  padding: 0px;
+  font-size: 1em;
 }
 
 body {
@@ -129,10 +111,25 @@ ul li {
   font-weight: bold;
 }
 
-.tariffs__list {}
+.tariffs__logo {
+  width: 32px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #4b73b5;
+  padding: 20px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.tariff__features p {
+  font-weight: 300;
+}
 
 .tariffs__feature {
   list-style: none;
+  font-weight: 300;
 }
 
 .tariffs__feature::before {
@@ -151,11 +148,13 @@ ul li {
   color: #221f1f;
 }
 
+.tariffs__item span {
+  text-align: center
+}
+
 .tariffs__desc p {
   text-align: center;
 }
-
-.tariff__features ul li {}
 
 .tariffs__price {
   display: inline-block;
@@ -180,6 +179,15 @@ ul li {
   display: inline-block;
   color: #4b73b5;
   vertical-align: middle;
+  padding-bottom: 1em;
+}
+
+.nav__text {
+  display: inline-block;
+  text-transform: uppercase;
+  height: 100%;
+  vertical-align: middle;
+  padding-bottom: 8px;
 }
 
 .nav__item-icon {
@@ -187,6 +195,7 @@ ul li {
   width: 30px;
   text-align: right;
   color: inherit;
+  padding-top: 50px;
 }
 
 .nav__link {
@@ -244,6 +253,12 @@ ul li {
   font-size: 18px;
 }
 
+.news__desc p {
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 300;
+}
+
 /* footer ================================== */
 
 .footer__container {
@@ -265,7 +280,9 @@ ul li {
   padding-top: 20px;
 }
 
-
+.footer__author-list {
+  font-weight: 300;
+}
 
 /* social networks ================================== */
 
@@ -312,67 +329,70 @@ ul li {
 /* paginator ================================== */
 
 .pagination {
-  max-width: 350px;
+  max-width: 500px;
   margin: 60px auto;
   font-size: 14px;
 }
 
 
 .pagination__display {
-  display: inline;
+  display: inline-block;
   vertical-align: top;
   color: #656464;
+  margin-right: 20px;
+  padding: 5px;
 }
 
 .pagination__pager {
-  display: inline;
-
-}
-
-.pagination__link {
-  text-decoration: none;
-}
-
-.pagination__button-prev,
-.pagination__button-next {
-  display: inline;
-  vertical-align: top;
-  width: 25px;
-  border: solid 1px #e8e9ed;
-  color: #221f1f;
-
-}
-
-pagination__link {
-  text-decoration: none;
-}
-
-.pagination__list {
   display: inline;
 }
 
 .pagination__item {
   display: inline;
   vertical-align: top;
-  width: 25px;
-  border: solid 1px #e8e9ed;
-  color: #221f1f;
+  margin: auto 8px;
 }
 
-.tariffs__logo {
-  width: 32px;
+.pagination__link {
+  text-decoration: none;
+  text-align: center;
   display: inline-block;
-  vertical-align: middle;
-  background-color: #4b73b5;
-  padding: 20px;
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
+  /* border: solid 1px #e8e9ed; */
+  color: #221f1f;
+  font-weight: bold;
+  height: 1.2em;
+  width: 1em;
+  padding: 5px;
 }
 
-h3 {
-  margin-top: 0px;
-  padding: 0px;
-  font-size: 1em;
+.pagination__button-prev,
+.pagination__button-next {
+  display: inline-block;
+  vertical-align: top;
+  /* border: solid 1px #e8e9ed; */
+  color: #221f1f;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.pagination__list {
+  display: inline;  
+}
+
+.pagination__link_active {
+  background-color: #4b73b5;
+  border-radius: 2px;
+  padding: 5px;
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.pagination__button_inactive {
+  opacity: 0.3;
 }
