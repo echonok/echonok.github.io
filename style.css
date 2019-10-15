@@ -5,7 +5,6 @@ h3 {
 }
 
 body {
-  margin: 0px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
 }
@@ -16,6 +15,15 @@ header {
 
 footer {
   background: #4b73b5;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
 }
 
 .container {
@@ -73,15 +81,6 @@ footer {
   display: none;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
-ul li {
-  list-style: none;
-}
-
 .page-content {
   position: relative;
 }
@@ -101,7 +100,6 @@ ul li {
   width: 200px;
   padding-top: 1.7em;
 }
-
 
 .header__bigpic {
   max-width: 1007px;
@@ -170,7 +168,6 @@ ul li {
   font-weight: bold;
   letter-spacing: 0.2em;
   margin: 2em auto 1.4em;
-
 }
 
 .tariffs__desc p {
@@ -377,7 +374,6 @@ ul li {
   margin: 40px auto 60px;
   font-size: 14px;
 }
-
 
 .pagination__display {
   display: inline-block;
