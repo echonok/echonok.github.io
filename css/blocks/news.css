@@ -39,7 +39,7 @@
   margin: 0px;
   display: flex;
   flex-direction: column;
-  width: 600px;
+  max-width: 600px;
 }
 
 .news__desc time {

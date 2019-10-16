@@ -1,5 +1,6 @@
 header {
   background: #4b73b5;
+  margin-bottom: 13px;
 }
 
 .header__container {
@@ -8,6 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header__container .logo {

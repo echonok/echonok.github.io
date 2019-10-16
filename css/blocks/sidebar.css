@@ -1,7 +1,20 @@
-
 .sidebar {
-  display: inline-block;
-  vertical-align: top;
   width: 200px;
-  padding-top: 1.7em;
+  margin-top: 1.7em;
+  margin-right: 62px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.nav__text {
+  padding: 0px;
 }
