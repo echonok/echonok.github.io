@@ -3,19 +3,19 @@ header {
 }
 
 .header__container {
+  width: 100%;
   height: 77px;
-  position: relative;
-  margin-bottom: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__container .logo {
-  position: absolute;
-  top: 21px;
-  left: 21px;
 }
 
 .header__bigpic {
   max-width: 1007px;
+  height: auto;
   object-fit: contain;
   margin-bottom: 16px;
 }

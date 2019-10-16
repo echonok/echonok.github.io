@@ -1,9 +1,13 @@
 .tariffs {
-  margin: auto auto 61px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .tariffs__list {
   margin-top: 1.3em;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tariffs__logo {
@@ -29,17 +33,16 @@
 
 .tariffs__feature::before {
   content: "•";
-  display: inline-block;
   color: inherit;
   margin-right: 30px;
 }
 
 .tariffs__item {
-  display: inline-block;
   vertical-align: top;
-  width: 200px;
   padding: 41px 30px 48px 30px;
   color: #221f1f;
+  display: flex;
+  flex-direction: column;
 }
 
 .tariffs__item_active {
@@ -47,7 +50,6 @@
 }
 
 .tariffs__title {
-  display: inline-block;
   text-align: center;
   width: 100%;
   text-transform: uppercase;
@@ -62,13 +64,15 @@
 }
 
 .tariffs__price {
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
   width: 100%;
   margin-top: 35px;
 }
 
 .tariffs__price-currency {
+  
   font-size: 25px;
 }
 

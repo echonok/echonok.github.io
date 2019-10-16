@@ -1,10 +1,20 @@
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+.news__list {
+  display: flex;
+  flex-direction: column;
+}
+
 .news__item {
-  vertical-align: top;
-  display: inline-block;
+  display: flex;
   border-bottom: 2px solid #f5f5f5;
   padding-top: 30px;
   padding-bottom: 25px;
 }
+
 .news__item:last-child {
   border-bottom: 0;
 }
@@ -27,7 +37,8 @@
 .news__desc {
   padding: 0px;
   margin: 0px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   width: 600px;
 }
 
@@ -37,7 +48,8 @@
 }
 
 .news__desc h4 {
-  margin: 0.4em auto;
+  margin: 0.4em 0;
+  text-align: left;
 }
 
 .news__desc h4,

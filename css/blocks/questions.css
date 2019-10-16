@@ -1,0 +1,16 @@
+.questions {
+  display: flex;
+  flex-direction: column;
+}
+
+.questions__info {
+  background: green;
+}
+
+.questions__info p {
+  margin: 20px 60px;
+}
+
+.questions__send-review {
+  
+}
