@@ -3,3 +3,10 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.main-conten__bigpic {
+  width: 110%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 16px;
+}

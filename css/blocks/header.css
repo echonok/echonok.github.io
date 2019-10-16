@@ -15,9 +15,7 @@ header {
 .header__container .logo {
 }
 
-.header__bigpic {
-  max-width: 1007px;
-  height: auto;
-  object-fit: contain;
-  margin-bottom: 16px;
+.logo,
+.contacts {
+  flex-grow: 1;
 }
