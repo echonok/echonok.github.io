@@ -10,7 +10,7 @@
   content: "/";
 }
 
-.breadcrumbs__item--active {
+.breadcrumbs__item--active a {
   text-decoration: none;
   color: #221f1f;
 }
