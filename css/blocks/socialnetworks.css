@@ -1,0 +1,48 @@
+.socialnetworks {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
+}
+
+.socialnetworks__text {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.socialnetworks__list {
+  display: inline-block;
+}
+
+.socialnetworks__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+.socialnetworks__icon {
+  display: inline-block;
+  background-color:#d2def3;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  padding: 0px;
+  text-align: center;
+  color: #4b73b5;
+  vertical-align: middle;
+  width: 1.2em;
+  height: 1.2em;
+  line-height: 1.2em;
+}
+
+.socialnetworks__icon_active {
+  background-color:#ffffff;
+}
+
+.socialnetworks__icon:hover {
+  background-color:#ffffff;
+  transition: 1s;
+}

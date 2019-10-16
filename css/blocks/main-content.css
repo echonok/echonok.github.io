@@ -1,0 +1,9 @@
+.main-content {
+  width: 800px;
+  left: 199px;
+}
+
+.main-content {
+  display: inline-block;
+  vertical-align: top;
+}

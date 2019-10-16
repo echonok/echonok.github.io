@@ -10,10 +10,19 @@
   <meta property="og:description" content="Пробный сайт-проект Airplanet" />
   <meta property="og:image" content="img/og-image.jpeg" />
   <title>Airplanet</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/blocks/layout/base.css">
+  <link rel="stylesheet" href="css/blocks/layout/font.css">
+  <link rel="stylesheet" href="css/blocks/contacts.css">
+  <link rel="stylesheet" href="css/blocks/footer.css">
+  <link rel="stylesheet" href="css/blocks/header.css">
+  <link rel="stylesheet" href="css/blocks/logo.css">
+  <link rel="stylesheet" href="css/blocks/nav.css">
+  <link rel="stylesheet" href="css/blocks/news.css">
+  <link rel="stylesheet" href="css/blocks/pagination.css">
+  <link rel="stylesheet" href="css/blocks/socialnetworks.css">
+  <link rel="stylesheet" href="css/blocks/tariffs.css">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/addition.css">
-  <link rel="stylesheet" href="./fonts/font.css">
   <link rel="shortcut icon" href="./img/icons/paper-plane.ico">
 </head>
 
@@ -44,6 +53,145 @@
           </div>
         </div>
       </header>
+
+      <div class="container">
+
+        <aside class="sidebar">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <i class="icon icon_plane"></i>
+                  <span class="nav__text">Главная</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="reviews.html" class="nav__link nav__link_active">
+                  <i class="icon icon_reviews"></i>
+                  <span class="nav__text">Отзывы</span>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <i class="icon icon_crew"></i>
+                  <span class="nav__text">Экипаж</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+
+        <main class="main-content">
+        
+          <nav class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link">Главная</a>
+              </li>
+              <li class="breadcrumbs__item">
+                <a href="#" class="breadcrumbs__link breadcrumbs__item--active">Отзывы</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="review">
+              <h3 class="title">Отзывы</h3>
+    
+              <ul class="review__list">
+    
+                <li class="review__item">
+                  <div class="nreview__pic-area">
+                    <img src="./img/flight_1.jpg" alt="" class="review__pic">
+                  </div>
+                  <div class="review__desc">
+                    <time datetime="2016-10-12">12.10.2016</time>
+                    <h4>Ночные перелёты дешевле!</h4>
+                    <p>
+                      Летящий в ночном небе самолет — зрелище загадочное и романтическое.
+                      Крылатая машина величественно плывет
+                      в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми,
+                      спешащими далеко-далеко по очень важным делам.
+                    </p>
+                  </div>
+                </li>
+                <li class="review__item">
+                  <div class="review__pic-area">
+                    <img src="./img/flight_2.jpg" alt="" class="review__pic">
+                  </div>
+                  <div class="review__desc">
+                    <time datetime="2016-10-12">12.10.2016</time>
+                    <h4>Ночные перелёты дешевле!</h4>
+                    <p>
+                      Летящий в ночном небе самолет — зрелище загадочное и романтическое.
+                      Крылатая машина величественно плывет
+                      в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми,
+                      спешащими далеко-далеко по очень важным делам.
+                    </p>
+                  </div>
+                </li>
+                <li class="review__item">
+                  <div class="review__pic-area">
+                    <img src="./img/flight_3.jpg" alt="" class="review__pic">
+                  </div>
+                  <div class="review__desc">
+                    <time datetime="2016-10-12">12.10.2016</time>
+                    <h4>Ночные перелёты дешевле!</h4>
+                    <p>
+                      Летящий в ночном небе самолет — зрелище загадочное и романтическое.
+                      Крылатая машина величественно плывет
+                      в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми,
+                      спешащими далеко-далеко по очень важным делам.
+                    </p>
+                  </div>
+                </li>
+    
+              </ul>
+    
+              <div class="pagination">
+                <div class="pagination__display">Страница 1 из 7</div>
+                <div class="pagination__pager">
+                  <a href="#" class="pagination__button-prev pagination__button pagination__button_inactive"> &#12296;</a>
+                  <ul class="pagination__list">
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link pagination__link_active"><span>1</span></a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link"><span>2</span></a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link"><span>3</span></a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link"><span>4</span></a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link"><span>5</span></a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link"><span>6</span></a>
+                    </li>
+                    <li class="pagination__item">
+                      <a href="#" class="pagination__link"><span>7</span></a>
+                    </li>
+                  </ul>
+                  <a href="#" class="pagination__button-next"> &#12297;</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="questions">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores impedit consectetur est, maiores ab, quidem provident unde magni fuga exercitationem, ducimus iure placeat distinctio vero aut sunt explicabo neque? Cumque?</p>
+            </div>
+
+            <div class="send-review">
+              <h2>Оставить отзыв</h2>
+            </div>
+
+        </main>
+      </div>
+
+
+
     </div>
 
     <footer class="footer">

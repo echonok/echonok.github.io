@@ -1,0 +1,42 @@
+.nav__item {
+  display: inline-block;
+  color: #4b73b5;
+  vertical-align: middle;
+  padding-bottom: 1em;
+}
+
+.nav__text {
+  display: inline-block;
+  text-transform: uppercase;
+  height: 100%;
+  vertical-align: middle;
+  padding-bottom: 8px;
+}
+
+.nav__item-icon {
+  display: inline-block;
+  width: 30px;
+  text-align: right;
+  color: inherit;
+  padding-top: 50px;
+}
+
+.nav__link {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+  text-decoration: none;
+  margin-left: 19px;
+  color: inherit;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.nav__link_active {
+  color: #221f1f;
+}
+
+.nav__link:hover {
+  color: #221f1f;
+  transition: 1s;
+}

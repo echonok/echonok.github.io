@@ -10,10 +10,7 @@
   <meta property="og:description" content="Пробный сайт-проект Airplanet" />
   <meta property="og:image" content="img/og-image.jpeg" />
   <title>Airplanet</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/addition.css">
-  <link rel="stylesheet" href="./fonts/font.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="shortcut icon" href="./img/icons/paper-plane.ico">
 </head>
 
@@ -44,196 +41,195 @@
       </div>
     </header>
 
-    <div class="page-content">
-      <div class="container">
-        <aside class="sidebar">
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#" class="nav__link nav__link_active">
-                  <i class="icon icon_plane"></i>
-                  <span class="nav__text">Главная</span>
-                </a>
+    <div class="container">
+
+      <aside class="sidebar">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link_active">
+                <i class="icon icon_plane"></i>
+                <span class="nav__text">Главная</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="reviews.html" class="nav__link">
+                <i class="icon icon_reviews"></i>
+                <span class="nav__text">Отзывы</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="icon icon_crew"></i>
+                <span class="nav__text">Экипаж</span>
+              </a>
+            </li>
+          </ul>
+
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <img src="./img/main_pic.png" alt="Большая картинка" class="header__bigpic">
+        <div class="tariffs">
+          <h3 class="title">Тарифы</h3>
+          <div class="tariffs__list">
+            <ul>
+
+              <li class="tariffs__item">
+
+                <img src="./img/icons/big_ico_flower.svg" alt="стандарт" class="tariffs__logo">
+                <span class="tariffs__title">стандарт</span>
+                <div class="tariffs__desc">
+                  <div class="tariff__features">
+                    <p class="tariffs__description">Создан для вашего комфортного отдыха</p>
+
+                    <ul>
+                      <li class="tariffs__feature"><span>Питание включено</span></li>
+                      <li class="tariffs__feature"><span>Багаж (5 кг)</span></li>
+                      <li class="tariffs__feature"><span>Детское кресло</span></li>
+                    </ul>
+                    <div class="tariffs__price">
+                      <span class="tariffs__price-currency">$</span>
+                      <span class="tariffs__price-number">19</span>
+                    </div>
+                  </div>
+
+                </div>
               </li>
-              <li class="nav__item">
-                <a href="reviews.html" class="nav__link">
-                  <i class="icon icon_reviews"></i>
-                  <span class="nav__text">Отзывы</span>
-                </a>
+
+              <li class="tariffs__item tariffs__item_active">
+
+                <img src="./img/icons/big_ico_mark-as-favorite-star.svg" alt="стандарт" class="tariffs__logo">
+                <span class="tariffs__title">премиум</span>
+                <div class="tariffs__desc">
+                  <div class="tariff__features">
+                    <p class="tariffs__description">Для любителей хороших впечатлений</p>
+
+                    <ul>
+                      <li class="tariffs__feature"><span>Питание включено</span></li>
+                      <li class="tariffs__feature"><span>Багаж (5 кг)</span></li>
+                      <li class="tariffs__feature"><span>Детское кресло</span></li>
+                    </ul>
+                    <div class="tariffs__price">
+                      <span class="tariffs__price-currency">$</span>
+                      <span class="tariffs__price-number">39</span>
+                    </div>
+                  </div>
               </li>
-              <li class="nav__item">
-                <a href="#" class="nav__link">
-                  <i class="icon icon_crew"></i>
-                  <span class="nav__text">Экипаж</span>
-                </a>
+
+              <li class="tariffs__item">
+
+                <img src="./img/icons/big_ico_painter-palette.svg" alt="стандарт" class="tariffs__logo">
+                <span class="tariffs__title">лакшери</span>
+                <div class="tariffs__desc">
+                  <div class="tariff__features">
+                    <p class="tariffs__description">Всё самое лучшее и незабываемое</p>
+
+                    <ul>
+                      <li class="tariffs__feature"><span>Питание включено</span></li>
+                      <li class="tariffs__feature"><span>Багаж (5 кг)</span></li>
+                      <li class="tariffs__feature"><span>Детское кресло</span></li>
+                    </ul>
+                    <div class="tariffs__price">
+                      <span class="tariffs__price-currency">$</span>
+                      <span class="tariffs__price-number">99</span>
+                    </div>
+                  </div>
+                </div>
               </li>
+
             </ul>
-
-          </nav>
-        </aside>
-
-        <main class="main-content">
-          <img src="./img/main_pic.png" alt="Большая картинка" class="header__bigpic">
-          <div class="tariffs">
-            <h3 class="title">Тарифы</h3>
-            <div class="tariffs__list">
-              <ul>
-
-                <li class="tariffs__item">
-
-                  <img src="./img/icons/big_ico_flower.svg" alt="стандарт" class="tariffs__logo">
-                  <span class="tariffs__title">стандарт</span>
-                  <div class="tariffs__desc">
-                    <div class="tariff__features">
-                      <p class="tariffs__description">Создан для вашего комфортного отдыха</p>
-
-                      <ul>
-                        <li class="tariffs__feature"><span>Питание включено</span></li>
-                        <li class="tariffs__feature"><span>Багаж (5 кг)</span></li>
-                        <li class="tariffs__feature"><span>Детское кресло</span></li>
-                      </ul>
-                      <div class="tariffs__price">
-                        <span class="tariffs__price-currency">$</span>
-                        <span class="tariffs__price-number">19</span>
-                      </div>
-                    </div>
-
-                  </div>
-                </li>
-
-                <li class="tariffs__item tariffs__item_active">
-
-                  <img src="./img/icons/big_ico_mark-as-favorite-star.svg" alt="стандарт" class="tariffs__logo">
-                  <span class="tariffs__title">премиум</span>
-                  <div class="tariffs__desc">
-                    <div class="tariff__features">
-                      <p class="tariffs__description">Для любителей хороших впечатлений</p>
-
-                      <ul>
-                        <li class="tariffs__feature"><span>Питание включено</span></li>
-                        <li class="tariffs__feature"><span>Багаж (5 кг)</span></li>
-                        <li class="tariffs__feature"><span>Детское кресло</span></li>
-                      </ul>
-                      <div class="tariffs__price">
-                        <span class="tariffs__price-currency">$</span>
-                        <span class="tariffs__price-number">39</span>
-                      </div>
-                    </div>
-                </li>
-
-                <li class="tariffs__item">
-
-                  <img src="./img/icons/big_ico_painter-palette.svg" alt="стандарт" class="tariffs__logo">
-                  <span class="tariffs__title">лакшери</span>
-                  <div class="tariffs__desc">
-                    <div class="tariff__features">
-                      <p class="tariffs__description">Всё самое лучшее и незабываемое</p>
-
-                      <ul>
-                        <li class="tariffs__feature"><span>Питание включено</span></li>
-                        <li class="tariffs__feature"><span>Багаж (5 кг)</span></li>
-                        <li class="tariffs__feature"><span>Детское кресло</span></li>
-                      </ul>
-                      <div class="tariffs__price">
-                        <span class="tariffs__price-currency">$</span>
-                        <span class="tariffs__price-number">99</span>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-              </ul>
-            </div>
           </div>
+        </div>
 
-          <div class="news">
-            <h3 class="title">Последние новости</h3>
+        <div class="news">
+          <h3 class="title">Последние новости</h3>
 
-            <ul class="news__list">
+          <ul class="news__list">
 
-              <li class="news__item">
-                <div class="news__pic-area">
-                  <img src="./img/flight_1.jpg" alt="" class="news__pic">
-                </div>
-                <div class="news__desc">
-                  <time datetime="2016-10-12">12.10.2016</time>
-                  <h4>Ночные перелёты дешевле!</h4>
-                  <p>
-                    Летящий в ночном небе самолет — зрелище загадочное и романтическое.
-                    Крылатая машина величественно плывет
-                    в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми,
-                    спешащими далеко-далеко по очень важным делам.
-                  </p>
-                </div>
-              </li>
-              <li class="news__item">
-                <div class="news__pic-area">
-                  <img src="./img/flight_2.jpg" alt="" class="news__pic">
-                </div>
-                <div class="news__desc">
-                  <time datetime="2016-10-12">12.10.2016</time>
-                  <h4>Ночные перелёты дешевле!</h4>
-                  <p>
-                    Летящий в ночном небе самолет — зрелище загадочное и романтическое.
-                    Крылатая машина величественно плывет
-                    в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми,
-                    спешащими далеко-далеко по очень важным делам.
-                  </p>
-                </div>
-              </li>
-              <li class="news__item">
-                <div class="news__pic-area">
-                  <img src="./img/flight_3.jpg" alt="" class="news__pic">
-                </div>
-                <div class="news__desc">
-                  <time datetime="2016-10-12">12.10.2016</time>
-                  <h4>Ночные перелёты дешевле!</h4>
-                  <p>
-                    Летящий в ночном небе самолет — зрелище загадочное и романтическое.
-                    Крылатая машина величественно плывет
-                    в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми,
-                    спешащими далеко-далеко по очень важным делам.
-                  </p>
-                </div>
-              </li>
-
-            </ul>
-
-            <div class="pagination">
-              <div class="pagination__display">Страница 1 из 7</div>
-              <div class="pagination__pager">
-                <a href="#" class="pagination__button-prev pagination__button pagination__button_inactive"> &#12296;</a>
-                <ul class="pagination__list">
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link pagination__link_active"><span>1</span></a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link"><span>2</span></a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link"><span>3</span></a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link"><span>4</span></a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link"><span>5</span></a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link"><span>6</span></a>
-                  </li>
-                  <li class="pagination__item">
-                    <a href="#" class="pagination__link"><span>7</span></a>
-                  </li>
-                </ul>
-                <a href="#" class="pagination__button-next"> &#12297;</a>
+            <li class="news__item">
+              <div class="news__pic-area">
+                <img src="./img/flight_1.jpg" alt="" class="news__pic">
               </div>
+              <div class="news__desc">
+                <time datetime="2016-10-12">12.10.2016</time>
+                <h4>Ночные перелёты дешевле!</h4>
+                <p>
+                  Летящий в ночном небе самолет — зрелище загадочное и романтическое.
+                  Крылатая машина величественно плывет
+                  в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми,
+                  спешащими далеко-далеко по очень важным делам.
+                </p>
+              </div>
+            </li>
+            <li class="news__item">
+              <div class="news__pic-area">
+                <img src="./img/flight_2.jpg" alt="" class="news__pic">
+              </div>
+              <div class="news__desc">
+                <time datetime="2016-10-12">12.10.2016</time>
+                <h4>Ночные перелёты дешевле!</h4>
+                <p>
+                  Летящий в ночном небе самолет — зрелище загадочное и романтическое.
+                  Крылатая машина величественно плывет
+                  в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми,
+                  спешащими далеко-далеко по очень важным делам.
+                </p>
+              </div>
+            </li>
+            <li class="news__item">
+              <div class="news__pic-area">
+                <img src="./img/flight_3.jpg" alt="" class="news__pic">
+              </div>
+              <div class="news__desc">
+                <time datetime="2016-10-12">12.10.2016</time>
+                <h4>Ночные перелёты дешевле!</h4>
+                <p>
+                  Летящий в ночном небе самолет — зрелище загадочное и романтическое.
+                  Крылатая машина величественно плывет
+                  в вышине, мерцая разноцветными огнями, и почему-то кажется, что она наполнена удивительными людьми,
+                  спешащими далеко-далеко по очень важным делам.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="pagination">
+            <div class="pagination__display">Страница 1 из 7</div>
+            <div class="pagination__pager">
+              <a href="#" class="pagination__button-prev pagination__button pagination__button_inactive"> &#12296;</a>
+              <ul class="pagination__list">
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link pagination__link_active"><span>1</span></a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link"><span>2</span></a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link"><span>3</span></a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link"><span>4</span></a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link"><span>5</span></a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link"><span>6</span></a>
+                </li>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link"><span>7</span></a>
+                </li>
+              </ul>
+              <a href="#" class="pagination__button-next"> &#12297;</a>
             </div>
           </div>
+        </div>
 
-        </main>
+      </main>
 
-      </div>
     </div>
 
     <footer class="footer">
