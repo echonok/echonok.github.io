@@ -1,24 +1,13 @@
+.nav__list {
+  display: flex;
+  flex-direction: column;
+}
+
 .nav__item {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   color: #4b73b5;
-  vertical-align: middle;
   padding-bottom: 1em;
-}
-
-.nav__text {
-  display: inline-block;
-  text-transform: uppercase;
-  height: 100%;
-  vertical-align: middle;
-  padding-bottom: 8px;
-}
-
-.nav__item-icon {
-  display: inline-block;
-  width: 30px;
-  text-align: right;
-  color: inherit;
-  padding-top: 50px;
 }
 
 .nav__link {
@@ -26,10 +15,9 @@
   font-weight: bold;
   letter-spacing: 2.4px;
   text-decoration: none;
-  margin-left: 19px;
   color: inherit;
-  vertical-align: middle;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 .nav__link_active {
@@ -39,4 +27,13 @@
 .nav__link:hover {
   color: #221f1f;
   transition: 1s;
+}
+
+.nav__text {
+  text-transform: uppercase;
+}
+
+.nav__item-icon {
+  width: 30px;
+  color: inherit;
 }
