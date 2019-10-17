@@ -37,19 +37,28 @@
 
 .questions__send-review-form {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   justify-content: space-between;
+  align-items: center;
+}
+
+.questions__namevk {
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .questions__name,
 .questions__vk {
-  width: 48%;
+  width: 40%;
+  flex: 1;
 }
 
 .questions__comment {
   flex-basis: 100%;
+  width: 100%;
 }
 
 .questions__send-button {
 
 }
+

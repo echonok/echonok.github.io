@@ -14,7 +14,7 @@
   <link rel="shortcut icon" href="./img/icons/paper-plane.ico">
 </head>
 
-<body>
+<div>
 
   <div class="wrapper">
 
@@ -198,11 +198,28 @@
         <div class="questions__send-review">
           <h3 class="title">Оставить отзыв</h3>
           <form action="" class="questions__send-review-form">
-            <input type="text" placeholder="Андрей" class="questions__name">
-            <input type="text" placeholder="vk.com/example" class="questions__vk">
-            <textarea rows="4" placeholder="Мне понравилось" class="questions__comment"></textarea>
-            <input type="radio" name="showPhoto" id="">
-            <input type="radio" name="showPhoto" id="">
+            <div class="questions__namevk">
+              <div class="questions__name">
+                <label>Ваше имя
+                  <input type="text" placeholder="Андрей">
+                </label>
+              </div>
+              <div class="questions__vk">
+                <label class="questions__vk">Ссылка н профиль VK
+                  <input type="text" placeholder="vk.com/example">
+                </label>
+              </div>
+            </div>
+            <label>Текст отзыва
+              <textarea rows="4" placeholder="Мне понравилось" class="questions__comment"></textarea>
+            </label>
+            <span>Отображать фото в отзыве?</span>
+            <label>Да
+              <input type="radio" name="showPhoto" id="" value=true checked>
+            </label>
+            <label>Нет
+              <input type="radio" name="showPhoto" id="" value=false>
+            </label>
             <input type="submit" value="Отправить \e903;" class="questions__send-button">
           </form>
         </div>
