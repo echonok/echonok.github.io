@@ -15,14 +15,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1 1 250px;
+  flex: 1 1 33%;
 }
 
 .team__pic-area {
   display: inline-block;
   position: relative;
-  width: 160px;
-  height: 160px;
+  width: 16rem;
+  height: 16rem;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -40,22 +40,22 @@
   bottom: 0;
   left: 0;
   right: 0;
-  width: 160px;
-  height: 160px;
+  width: 16rem;
+  height: 16rem;
   border-radius: 50%;
   overflow: hidden;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: #008CBA;
 }
 
 .team__pic-area:hover .overlay {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .overlay-text {
   color: white;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: bold;
   position: absolute;
   top: 50%;
@@ -79,8 +79,8 @@
 
 
 .team__desc h4 {
-  padding-top: 1em;
-  font-size: 18px;  
+  padding-top: 1rem;
+  font-size: 1.8rem;  
 }
 
 .team__desc h4,
@@ -90,23 +90,23 @@
 
 .team__desc span,
 .team__desc p {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .team__desc h4 {
-  padding-top: 1em;
+  padding-top: 1rem;
   font-weight: bold;
 }
 
 .team__desc span {
-  padding-top: 1em;
+  padding-top: 1rem;
   color: #4b73b5;
   font-weight: bold;
 }
 
 .team__desc p {
   font-weight: 300;
-  padding-top: 1em;
+  padding-top: 1rem;
   font-weight: 300;
-  margin: 0px;
+  margin: 0;
 }

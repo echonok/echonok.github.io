@@ -1,5 +1,5 @@
 .breadcrumbs {
-  margin-top: 1.7em;
+  margin-top: 4.6rem;
 }
 
 .breadcrumbs__list {
@@ -8,6 +8,7 @@
 
 .breadcrumbs__item::after {
   content: "/";
+  font-size: 1.4rem;
 }
 
 .breadcrumbs__item--active a {
@@ -22,4 +23,5 @@
 .breadcrumbs__link {
   font-weight: 300;
   font-style: italic;
+  font-size: 1.4rem;
 }

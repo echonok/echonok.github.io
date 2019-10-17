@@ -1,30 +1,27 @@
 .pagination {
-  margin: 40px auto 60px;
-  font-size: 14px;
+  margin: 4rem auto 6rem;
+  font-size: 1.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 33rem;
 }
 
 .pagination__display {
   color: #656464;
-  margin-right: auto 20px;
+  margin-right: auto 2rem;
 }
 
 .pagination__pager {
   display: flex;
   justify-content: space-between;
-  min-width: 213px;
+  min-width: 21rem;
 }
 
 .pagination__list {
   display: flex;
   width: 100%;
   justify-content: space-around;
-}
-
-.pagination__item {
-  /* margin: auto 8px; */
 }
 
 .pagination__link {
@@ -36,18 +33,17 @@
 
 .pagination__button-prev,
 .pagination__button-next {
-  /* border: solid 1px #e8e9ed; */
   color: #221f1f;
   text-decoration: none;
 }
 
 .pagination__link_active {
   background-color: #4b73b5;
-  border-radius: 5px;
-  padding: 5px;
-  width: 1.2em;
-  height: 1.2em;
-  line-height: 1.2em;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
   font-weight: bold;
   color: white;
   text-decoration: none;

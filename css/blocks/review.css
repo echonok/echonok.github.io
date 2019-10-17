@@ -11,8 +11,8 @@
 .review__item {
   display: flex;
   border-bottom: 2px solid #f5f5f5;
-  padding-top: 30px;
-  padding-bottom: 25px;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
 }
 
 .review__item:last-child {
@@ -21,11 +21,11 @@
 
 .review__pic-area {
   display: inline-block;
-  width: 160px;
-  height: 160px;
+  width: 16rem;
+  height: 16rem;
   border-radius: 50%;
   overflow: hidden;
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 
 .review__pic {
@@ -39,32 +39,31 @@
 }
 
 .review__desc {
-  padding: 0px;
-  margin: 0px;
-  flex-basis: 700px;
+  padding: 0;
+  margin: 0;
+  flex-basis: 70rem;
   display: flex;
   flex-direction: column;
 }
 
 .review__desc time {
   color: #656464;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .review__desc h4 {
-  margin: 0.4em 0;
+  margin: 0.4rem 0;
   text-align: left;
 }
 
 .review__desc h4,
 .review__desc p {
   color: #221f1f;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .review__desc p {
   color: #221f1f;
-  font-size: 18px;
   font-weight: 300;
-  margin: 0px;
+  margin: 0;
 }

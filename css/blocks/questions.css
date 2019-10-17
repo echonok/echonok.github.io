@@ -1,16 +1,55 @@
 .questions {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .questions__info {
-  background: green;
+  background: #4bb56b;
 }
 
 .questions__info p {
-  margin: 20px 60px;
+  margin: 0;
+  padding: 4.5rem 23rem;
+  color: white;
+  line-height: 1.67;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
+.questions__send-request {
+  color: white;
+  font-weight: bold;
+}
 .questions__send-review {
+  width: 64%;
+  background-color: #f5f5f5;
+  border: black;
+  padding: 5% 6%;
+  margin: 5% auto;
+}
+
+.questions__send-review h3 {
+  text-align: left;
   
+}
+
+.questions__send-review-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.questions__name,
+.questions__vk {
+  width: 48%;
+}
+
+.questions__comment {
+  flex-basis: 100%;
+}
+
+.questions__send-button {
+
 }

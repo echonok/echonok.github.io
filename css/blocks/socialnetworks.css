@@ -6,7 +6,7 @@
 
 .socialnetworks__text {
   margin: 0;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #ffffff;
 }
 
@@ -25,9 +25,8 @@
   border-radius: 30px;
   text-align: center;
   color: #4b73b5;
-  width: 1.2em;
-  height: 1.2em;
-  line-height: 1.2em;
+  width: 2rem;
+  height: 2rem;
   display: flex;
   align-items: center;
   text-decoration: none;

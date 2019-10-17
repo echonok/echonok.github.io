@@ -41,14 +41,14 @@
 }
 
 .icon {
-  font-size: 20px;
-  width: 1.2em;
-  padding-right: 2em;
+  font-size: 1.8rem;
+  width: 1.2rem;
+  padding-right: 2rem;
 }
 
 .social-icon {
-  font-size: 10px;
-  width: 2em;
+  font-size: 1rem;
+  width: 2rem;
 }
 
 .icon::before,
@@ -62,7 +62,7 @@
   text-transform: none;
   line-height: 1;
   text-decoration: none;
-  margin: 0px;
+  margin: 0;
   
 
   /* Better Font Rendering =========== */
