@@ -1,0 +1,39 @@
+.partner {
+  display: flex;
+  flex-direction: column;
+}
+
+.partner__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.partner__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 250px;
+  padding-bottom: 64px;
+}
+
+.partner__pic-area {
+  height: 64px;
+  width: 160px;
+}
+
+.partner__pic {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+.partner__pic:hover {
+  filter: grayscale(0%);
+}
+
+.partner__pic--colored {
+  filter: grayscale(0%);
+}
