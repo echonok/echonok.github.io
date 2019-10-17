@@ -39,7 +39,7 @@ table {
 
 .wrapper {
   overflow: hidden;
-  min-width: 110rem;
+  min-width: 80%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
