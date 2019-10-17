@@ -8,6 +8,7 @@
   margin: 0;
   font-size: 1.4rem;
   color: #ffffff;
+  padding-bottom: 0.9rem;
 }
 
 .socialnetworks__list {
@@ -17,12 +18,12 @@
 
 .socialnetworks__item {
   vertical-align: middle;
-  padding: 0px;
+  padding: 0;
 }
 
 .socialnetworks__icon {
   background-color:#d2def3;
-  border-radius: 30px;
+  border-radius: 3rem;
   text-align: center;
   color: #4b73b5;
   width: 2rem;
