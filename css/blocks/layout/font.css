@@ -52,6 +52,7 @@
 }
 
 .icon::before,
+.icon::after,
 .social-icon::before {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'menu-fonts' !important;
@@ -91,8 +92,4 @@
 }
 .menu-fonts-ico_tw:before {
   content: "\e907";
-}
-
-.icon_plane--after:before {
-  content: "\e902";
 }
