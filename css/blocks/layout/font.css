@@ -93,6 +93,6 @@
   content: "\e907";
 }
 
-.icon_plane--after:after {
+.icon_plane--after:before {
   content: "\e902";
 }
