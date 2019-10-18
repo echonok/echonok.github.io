@@ -1,15 +1,15 @@
-.questions {
+.form {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   align-items: center;
 }
 
-.questions__info {
+.questions {
   background: #4bb56b;
 }
 
-.questions__info p {
+.questions p {
   margin: 0;
   padding: 4.5rem 23rem;
   color: white;
@@ -18,11 +18,11 @@
   font-weight: 300;
 }
 
-.questions__send-request {
+.questions__request {
   color: white;
   font-weight: bold;
 }
-.questions__send-review {
+.form__send-review {
   width: 64%;
   background-color: #f5f5f5;
   border: black;
@@ -30,35 +30,44 @@
   margin: 5% auto;
 }
 
-.questions__send-review h3 {
+.form__send-review h3 {
   text-align: left;
-  
 }
 
-.questions__send-review-form {
+.form__send-review-form {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-between;
-  align-items: center;
 }
 
-.questions__namevk {
+.form__row {
   display: flex;
-  flex-flow: row wrap;
 }
 
-.questions__name,
-.questions__vk {
-  width: 40%;
+.form__block {
   flex: 1;
+  margin-left: 2.3rem;
 }
 
-.questions__comment {
-  flex-basis: 100%;
-  width: 100%;
+.form__block:first-child {
+  margin-left: 0;
 }
 
-.questions__send-button {
+.form__input {
+ width: 100%;
+ background: #fff;
+ border: none;
+ border-radius: 0.3rem;
+ padding: 1.5rem 0.9rem;
+}
+
+.form__input::placeholder {
+  color: rgba(34, 31, 31, 0.5);
+}
+ 
+.form__input:focus {
+}
+
+.form__send-button {
 
 }
 

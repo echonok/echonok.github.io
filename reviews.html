@@ -14,34 +14,35 @@
   <link rel="shortcut icon" href="./img/icons/paper-plane.ico">
 </head>
 
-<div>
+<body>
 
   <div class="wrapper">
 
-    <div class="wrapper__content">
+    <header class="header">
+      <div class="container header__container">
 
-      <header class="header">
-        <div class="container header__container">
-
-          <div class="logo">
-            <a href="#" class="logo__link">
-              <img src="./img/main_logo.svg" alt="Airplanet logo" class="logo__pic">
-            </a>
-          </div>
-
-          <div class="contacts">
-            <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-            <div class="contacts__hours">
-              <a href="#" class="contacts__hours-text">График работы</a>
-              <ul class="contacts__workhours">
-                <li class="contacts__workitem">пн-вс: 09:10-20:00</li>
-                <li class="contacts__workitem">обед: 14:00-14:30</li>
-              </ul>
-            </div>
-          </div>
-
+        <div class="logo">
+          <a href="#" class="logo__link">
+            <img src="./img/main_logo.svg" alt="Airplanet logo" class="logo__pic">
+          </a>
         </div>
-      </header>
+
+        <div class="contacts">
+          <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
+          <div class="contacts__hours">
+            <a href="#" class="contacts__hours-text">График работы</a>
+            <ul class="contacts__workhours">
+              <li class="contacts__workitem">пн-вс: 09:10-20:00</li>
+              <li class="contacts__workitem">обед: 14:00-14:30</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <main class="wrapper__content">
+
       <div class="container">
 
         <aside class="sidebar">
@@ -69,7 +70,7 @@
           </nav>
         </aside>
 
-        <main class="main-content">
+        <div class="main-content">
 
           <nav class="breadcrumbs">
             <ul class="breadcrumbs__list">
@@ -82,7 +83,7 @@
             </ul>
           </nav>
 
-          <div class="review">
+          <section class="review">
             <h3 class="title">Отзывы</h3>
 
             <ul class="review__list">
@@ -179,54 +180,77 @@
                 <a href="#" class="pagination__button-next"> &#12297;</a>
               </div>
             </div>
-          </div>
+          </section>
 
-
-        </main>
-      </div>
-
-      <div class="container questions">
-
-        <div class="questions__info">
-          <p>Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить
-            <a href="#" class="questions__send-request">заявку на сайте</a>
-            или же позвонить по номеру круглосуточной поддержки
-            <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-            .</p>
         </div>
 
-        <div class="questions__send-review">
+      </div>
+
+      <section class="container questions">
+        <p>Вопросы по бронированию билетов в нашей авиакомпании принимаются. Для этого можно оставить
+          <a href="#" class="questions__request">заявку на сайте</a>
+          или же позвонить по номеру круглосуточной поддержки
+          <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>.
+        </p>
+      </section>
+
+      <section class="container form">
+
+        <div class="form__send-review">
           <h3 class="title">Оставить отзыв</h3>
-          <form action="" class="questions__send-review-form">
-            <div class="questions__namevk">
-              <div class="questions__name">
-                <label>Ваше имя
-                  <input type="text" placeholder="Андрей">
+          <form action="" class="form__send-review-form">
+
+            <div class="form__row">
+              <div class="form__block">
+                <label>
+                  <div class="form__block-title">Ваше имя</div>
+                  <input type="text" placeholder="Андрей" class="form__input">
                 </label>
               </div>
-              <div class="questions__vk">
-                <label class="questions__vk">Ссылка н профиль VK
-                  <input type="text" placeholder="vk.com/example">
+              <div class="form__block">
+                <label class="form__block-title">
+                  <div class="form__block-title">Ссылка н профиль VK</div>
+                  <input type="text" placeholder="vk.com/example" class="form__input">
                 </label>
               </div>
             </div>
-            <label>Текст отзыва
-              <textarea rows="4" placeholder="Мне понравилось" class="questions__comment"></textarea>
-            </label>
-            <span>Отображать фото в отзыве?</span>
-            <label>Да
-              <input type="radio" name="showPhoto" id="" value=true checked>
-            </label>
-            <label>Нет
-              <input type="radio" name="showPhoto" id="" value=false>
-            </label>
-            <input type="submit" value="Отправить" class="questions__send-button icon_plane">
+
+            <div class="form__row">
+              <div class="form__block">
+                <label>
+                  <div class="form__block-title">Ваш отзыв</div>
+                  <textarea id="" placeholder="Мне понравилось" class="form__input form__input--textarea"></textarea>
+                </label>
+              </div>
+            </div>
+
+
+            <div class="form__row">
+              <div class="form__question">
+                <div class="form__question-title">Отображать фото в отзыве?</div>
+                <div class="form__question-option">
+                  <label class="option">
+                    <input type="radio" name="" id="" class="option__radio">
+                    <div class="option__title">Да</div>
+                  </label>
+                  <label class="option">
+                    <input type="radio" name="" id="" class="option__radio">
+                    <div class="option__title">Нет</div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form__buttons">
+                <input type="reset" value="Очистить" class="form__buttons-button">
+                <input type="submit" value="Отправить" class="form__buttons-button">
+              </div>
+
           </form>
         </div>
 
-      </div>
+      </section>
 
-    </div>
+    </main>
 
     <footer class="footer">
       <div class="container footer__container">
@@ -279,7 +303,8 @@
       </div>
     </footer>
 
-
   </div>
+
+</body>
 
 </html>
