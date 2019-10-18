@@ -5,15 +5,15 @@
 
 .contacts__phone {
   text-decoration: none;
-  font-size: 21px;
+  font-size: 2.1rem;
   color: inherit;
   font-weight: bold;
 }
 
 .contacts__hours {
   color: inherit;
-  font-size: 14px;
-  opacity: .7;
+  font-size: 1.4rem;
+  opacity: 0.7;
 }
 
 .contacts__workhours {
@@ -22,8 +22,8 @@
 
 .contacts__hours-text {
   color: inherit;
-  font-size: 14px;
+  font-size: 1.4rem;
   text-decoration: underline;
-  opacity: .7;
+  opacity: 0.7;
   font-weight: bold;
 }
