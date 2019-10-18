@@ -12,10 +12,13 @@
 .team__item {
   padding: 41px 25px 48px;
   color: #221f1f;
+  flex: 1 1 33%;
+}
+
+.team__description {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1 1 33%;
 }
 
 .team__pic-area {
