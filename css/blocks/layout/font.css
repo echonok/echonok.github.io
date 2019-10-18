@@ -92,3 +92,7 @@
 .menu-fonts-ico_tw:before {
   content: "\e907";
 }
+
+.icon_plane--after:after {
+  content: "\e902";
+}
