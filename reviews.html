@@ -210,7 +210,7 @@
 
         <div class="form__send-review">
           <h3 class="title">Оставить отзыв</h3>
-          <form action="" class="form__send-review-form">
+          <div action="" class="form__send-review-form">
 
             <div class="form__row">
               <div class="form__block">
@@ -237,27 +237,33 @@
             </div>
 
             <div class="form__row">
-              <div class="form__question">
-                <div class="form__question-title">Отображать фото в отзыве?</div>
-                <div class="form__question-option">
-                  <label class="option">
-                    <input type="radio" name="show-photo" id="" class="option__radio">
-                    <div class="option__title">Да</div>
-                  </label>
-                  <label class="option">
-                    <input type="radio" name="show-photo" id="" class="option__radio">
-                    <div class="option__title">Нет</div>
-                  </label>
+              <div class="form__block">
+                <div class="form__question">
+                  <div class="form__question-title">Отображать фото в отзыве?</div>
+                  <div class="form__question-option">
+                    <label class="option">
+                      <input type="radio" name="show-photo" id="" class="option__radio">
+                      <span class="option__styler"></span>
+                      <span class="option__title">Да</span>
+                    </label>
+                    <label class="option">
+                      <input type="radio" name="show-photo" id="" class="option__radio">
+                      <span class="option__styler"></span>
+                      <span class="option__title">Нет</span>
+                    </label>
+                  </div>
                 </div>
               </div>
-
-              <div class="form__buttons">
-                <!-- <input type="reset" value="Очистить" class="form__buttons-button"> -->
-                <button type="submit" value="Отправить"
-                  class="form__buttons-button icon button-symbol">Отправить</button>
+              <div class="form__block">
+                <div class="form__buttons">
+                  <!-- <input type="reset" value="Очистить" class="form__buttons-button"> -->
+                  <button type="submit" value="Отправить"
+                    class="form__buttons-button icon button-symbol">Отправить</button>
+                </div>
               </div>
+            </div>
 
-          </form>
+          </div>
         </div>
 
       </section>

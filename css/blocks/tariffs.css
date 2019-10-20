@@ -34,7 +34,7 @@
   background-color: #4b73b5;
   padding: 2rem;
   border-radius: 50%;
-  margin-bottom: 1.8rem;
+  margin-bottom: 3.5rem;
 }
 
 .tariffs__title {
@@ -44,27 +44,30 @@
   letter-spacing: 0.264rem;
   text-align: center;
   width: 100%;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.7rem;
 }
 
 .tariffs__description {
   font-weight: 300;
   margin-top: 0;
-  margin-bottom: 1.4rem;
+  margin-bottom: 0.6rem;
   text-align: center;
   font-size: 1.8rem;
+  line-height: 1.67;
 }
 
 .tariffs__feature {
   list-style: none;
   font-weight: 300;
   font-size: 1.8rem;
+  margin-left: 2.3rem;
+  line-height: 1.9;
 }
 
 .tariffs__feature::before {
   content: "•";
   color: inherit;
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 
 .tariffs__item--active {
@@ -75,13 +78,13 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
-  margin-top: 3.5rem;
+  margin-top: 2.1rem;
 }
 
 .tariffs__price-currency {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 .tariffs__price-number {
-  font-size: 4rem;
+  font-size: 5.4rem;
 }

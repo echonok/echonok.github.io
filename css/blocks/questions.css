@@ -6,8 +6,7 @@
 }
 
 .questions {
-  background-image: url(../../);
-  background: green;
+  background-image: url(/img/green-back.png);
 }
 
 .questions article {

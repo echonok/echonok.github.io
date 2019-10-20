@@ -1,6 +1,7 @@
 .partner {
   display: flex;
   flex-direction: column;
+  margin-top: 5.2rem;
 }
 
 .partner__list {
