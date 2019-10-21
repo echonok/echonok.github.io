@@ -53,11 +53,13 @@
 .review__desc time {
   color: #656464;
   font-size: 1.4rem;
+  font-weight: 300;
 }
 
 .review__desc h4 {
   margin: 0.4rem 0;
   text-align: left;
+  font-weight: bold;
 }
 
 .review__desc h4,
