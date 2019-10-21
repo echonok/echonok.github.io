@@ -7,6 +7,10 @@
   display: flex;
 }
 
+.breadcrumbs__item {
+  color: #4b73b5;
+}
+
 .breadcrumbs__item::after {
   content: "/";
   font-size: 1.4rem;
