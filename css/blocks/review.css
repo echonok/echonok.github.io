@@ -40,6 +40,7 @@
 
 .review__pic--gray {
   filter: grayscale(100%);
+  fill:#000;
 }
 
 .review__desc {
