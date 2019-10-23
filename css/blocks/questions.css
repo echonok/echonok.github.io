@@ -1,9 +1,4 @@
-.form {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  align-items: center;
-}
+
 
 .questions {
   background-image: url(/img/green-back.png);
@@ -11,17 +6,15 @@
   background-repeat: no-repeat;
   background-position: center 0;
   width: 100%;
-  height: 17rem;
 }
 
 .questions article {
   margin: 0 auto;
-  padding: 4.5rem 0;
+  padding: 4.5rem 1rem;
   color: white;
   line-height: 1.67;
   font-size: 1.8rem;
   font-weight: 300;
-  width: 65rem;
 }
 
 .questions__request {

@@ -1,3 +1,10 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
 .form__send-review {
   width: 70rem;
   background-color: #f5f5f5;

@@ -1,6 +1,7 @@
 .nav__list {
   display: flex;
   flex-direction: column;
+  flex-direction: row;
 }
 
 .nav__item {

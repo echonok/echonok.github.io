@@ -1,0 +1,25 @@
+.backimage {
+
+}
+
+.intro-button {
+
+}
+
+.enter {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter__button {
+  border: 1px solid blue;
+  border-radius: 3px;
+  width: 25rem;
+}
+
+.enter__button:after {
+  content: "\e902";
+}

@@ -7,7 +7,7 @@
 .socialnetworks__text {
   margin: 0;
   font-size: 1.4rem;
-  color: #ffffff;
+  color: #000;
   padding-bottom: 0.9rem;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .socialnetworks__icon {
-  background-color:#d2def3;
+  background-color:#ffffff;
   border-radius: 3rem;
   text-align: center;
   color: #4b73b5;

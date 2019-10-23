@@ -7,6 +7,7 @@
 .tariffs__list {
   margin-top: 1.3rem;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
@@ -15,7 +16,7 @@
 .tariffs__item {
   flex: 1;
   flex-basis: 25rem;
-  width: calc(100% / 3);
+  width: 100%;
   margin-right: 0;
 }
 
