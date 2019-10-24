@@ -1,33 +1,56 @@
 html { 
-  background: url(../../img/airplanet_intro.jpg) no-repeat center center fixed; 
+  background: linear-gradient(0deg,rgba(255,255,255,0.6),rgba(255,255,255,0.6)),url(../../img/airplanet_intro.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.backimage {
-
-}
-
-.intro-button {
-
-}
-
 .enter {
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+  fadeIn-duration: 3s;
+  fadeIn-delay: 2s;
+  fadeIn-iteration-count: infinite;
+}
+
+.enter__pic {
+  margin-bottom: 4rem;
+  height: 18.5rem;
 }
 
 .enter__button {
-  border: 1px solid blue;
   border-radius: 3px;
-  width: 25rem;
+  border: solid 1px #1c5bc3;
+  width: 20.7rem;
+  height: 4.5rem;
+  background-color: transparent;
+  vertical-align: middle;
+  color: #1c5bc4;
+  text-align: center;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-.enter__button:after {
-  content: "\e902";
+.enter__button-text {
+  vertical-align: middle;
+  color: #1c5bc4;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
+
+.enter__button-symbol:after {
+  content: "\e902";
+  margin-left: 1.1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+

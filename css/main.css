@@ -1,4 +1,5 @@
 @import url(./normalize.css);
+@import url(./animate.css);
 @import url(./blocks/layout/base.css);
 @import url(./blocks/layout/font.css);
 @import url(./blocks/breadcrumbs.css);

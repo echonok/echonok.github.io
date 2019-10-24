@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   border: solid 1px #e8e9ed;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 }
 
 .partner__title{
@@ -15,18 +15,21 @@
 
 .partner__list {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 0;
+  width: 100%;
 }
 
 .partner__item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex: 1 1 33%;
-  padding-bottom: 4.8rem;
+  width: 80%;
+  max-width: 80%;
+  padding-bottom: 5rem;
 }
 
 .partner__item:last-child {
@@ -34,14 +37,18 @@
 }
 
 .partner__pic-area {
-  height: 6.4rem;
-  width: 16rem;
+  /* height: 6.4rem;
+  width: 16rem; */
+  width: 100%;
 }
 
 .partner__pic {
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  display: block;
+  margin: 0 auto;
   filter: grayscale(100%);
+  max-height: 5rem;
+  max-width: 12rem;
 }
 
 .partner__pic:hover {
