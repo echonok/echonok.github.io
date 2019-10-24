@@ -1,12 +1,14 @@
 .socialnetworks {
-  margin: 0;
+  margin: 3rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .socialnetworks__text {
   margin: 0;
   font-size: 1.4rem;
+  font-weight: bold;
   color: #000;
   padding-bottom: 0.9rem;
 }
@@ -14,11 +16,11 @@
 .socialnetworks__list {
   display: flex;
   justify-content: space-between;
+  width: 13rem;
 }
 
 .socialnetworks__item {
   vertical-align: middle;
-  padding: 0;
 }
 
 .socialnetworks__icon {

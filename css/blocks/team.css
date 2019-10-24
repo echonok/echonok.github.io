@@ -1,6 +1,7 @@
 .team {
   display: flex;
   flex-direction: column;
+  margin: 4rem auto 8rem;
 }
 
 .team__list {
@@ -37,7 +38,7 @@
   height: 100%;
 }
 
-.overlay {
+.overlay-border {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -46,6 +47,26 @@
   width: 16rem;
   height: 16rem;
   border-radius: 50%;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: transparent;
+  border: 3px solid black;
+}
+
+.team__pic-area:hover .overlay-border {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 16rem;
+  height: 16rem;
+  /* border-radius: 50%; */
   overflow: hidden;
   opacity: 0;
   transition: 0.5s ease;

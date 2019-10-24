@@ -1,5 +1,3 @@
-
-
 .questions {
   background-image: url(/img/green-back.png);
   background-size: cover;
@@ -10,11 +8,12 @@
 
 .questions article {
   margin: 0 auto;
-  padding: 4.5rem 1rem;
+  padding: 3rem 1.5rem;
   color: white;
   line-height: 1.67;
   font-size: 1.8rem;
   font-weight: 300;
+  text-align: center;
 }
 
 .questions__request {
