@@ -1,19 +1,21 @@
 .team {
   display: flex;
   flex-direction: column;
-  margin: 4rem auto 8rem;
+  margin: 3rem auto 3rem;
 }
 
 .team__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 1rem 0 -1rem;
 }
 
 .team__item {
-  padding: 4.1rem 2.5rem 0rem;
+  padding: 4.1rem 1.2rem 0rem;
   color: #221f1f;
-  flex: 1 1 33%;
+  flex: 1 1;
+  flex-basis: calc(100% / 3);
 }
 
 .team__description {
@@ -44,8 +46,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  width: 16rem;
-  height: 16rem;
+  width: 16.3rem;
+  height: 16.3rem;
   border-radius: 50%;
   overflow: hidden;
   opacity: 0;
@@ -126,7 +128,7 @@
 
 .team__desc p {
   font-weight: 300;
-  padding-top: 1rem;
+  padding-top: 0.7rem;
   font-weight: 300;
   margin: 0;
   line-height: 2.1rem;

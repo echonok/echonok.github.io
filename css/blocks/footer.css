@@ -1,6 +1,7 @@
 footer {
   background: #4b73b5;
   display: flex;
+  margin-top: 5rem;
 }
 
 .footer__container {
