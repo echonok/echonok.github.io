@@ -7,9 +7,8 @@ html {
 }
 
 .enter {
-  margin-top: auto;
-  margin-bottom: auto;
-  display: flex;
+  margin: auto;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;  
@@ -25,12 +24,13 @@ html {
   border: solid 1px #1c5bc3;
   background-color: transparent;
   vertical-align: middle;
-  color: #1c5bc4;
-  text-align: center;
   padding: 1.3rem 1.9rem;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  font-weight: bold;
+}
+
+.enter__button:hover {
+  border: solid 1px transparent;
+  background-color: #1c5bc4;
+  color: #fff;
 }
 
 .enter__button-text {
@@ -41,6 +41,10 @@ html {
   font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 2.4px;
+}
+
+.enter__button:hover .enter__button-text  {
+  color: #fff;
 }
 
 .enter__button-symbol:after {
