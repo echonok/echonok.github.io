@@ -1,5 +1,5 @@
 .pagination {
-  margin: 4rem auto 6rem;
+  margin: 4rem auto 5rem 19.7rem;
   font-size: 1.4rem;
   display: flex;
   justify-content: space-between;
@@ -28,6 +28,10 @@
   text-decoration: none;
   color: #221f1f;
   font-weight: bold;
+}
+
+.pagination__link:hover {
+  color: #1c5bc3;
 }
 
 .pagination__button-prev,
