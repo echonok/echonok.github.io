@@ -1,8 +1,6 @@
 .questions {
-  background-image: url(/img/green-back.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center 0;
+  background-image: url("../../img/back.svg");
+  background-color: #4b73b5;
   width: 100%;
   margin: 0.5rem;
 }
