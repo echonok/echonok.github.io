@@ -31,7 +31,7 @@
 }
 
 .nav__link:hover {
-  color: #221f1f;
+  color: #000000;
   transition: 1s;
 }
 
@@ -48,39 +48,54 @@
 
 .icon-main {
   width: 48px; height: 48px;
-  background: url('../../img/sprites_menu.png') -10px -78px;
-  transform: scale(0.5);
+  background: url('../../img/css_sprites.png') -78px -10px;
+  transform: scale(0.4);
 }
 
 .icon-reviews {
   width: 48px; height: 48px;
-  background: url('../../img/sprites_menu.png') -78px -78px;
-  transform: scale(0.5);
+  background: url('../../img/css_sprites.png') -78px -78px;
+  transform: scale(0.4);
 }
 
 .icon-team {
   width: 48px; height: 48px;
-  background: url('../../img/sprites_menu.png') -146px -78px;
-  transform: scale(0.5);
+  background: url('../../img/css_sprites.png') -78px -146px;
+  transform: scale(0.4);
 }
 
-.nav__link:hover .icon-main,
 .nav__link_active .icon-main {
   width: 48px; height: 48px;
-  background: url('../../img/sprites_menu.png') -10px -10px;
-  transform: scale(0.5);
+  background: url('../../img/css_sprites.png') -146px -10px;
+  transform: scale(0.4);
 }
 
-.nav__link:hover .icon-reviews,
 .nav__link_active .icon-reviews {
   width: 48px; height: 48px;
-  background: url('../../img/sprites_menu.png') -78px -10px;
+  background: url('../../img/css_sprites.png') -146px -78px;
+  transform: scale(0.4);
+}
+
+.nav__link_active .icon-team {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -146px -146px;
   transform: scale(0.5);
 }
 
-.nav__link:hover .icon-team,
-.nav__link_active .icon-team {
+.nav__link:hover .icon-main {
   width: 48px; height: 48px;
-  background: url('../../img/sprites_menu.png') -146px -10px;
-  transform: scale(0.5);
+  background: url('../../img/css_sprites.png') -10px -10px;
+  transform: scale(0.4);
+}
+
+.nav__link:hover .icon-reviews {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -10px -78px;
+  transform: scale(0.4);
+}
+
+.nav__link:hover .icon-team {
+  width: 48px; height: 48px;
+  background: url('../../img/css_sprites.png') -10px -146px;
+  transform: scale(0.4);
 }
