@@ -60,7 +60,7 @@
 }
 
 .form__input::placeholder {
-  color: rgba(34, 31, 31, 0.5);
+  /* color: rgba(34, 31, 31, 0.5); */
 }
  
 .form__input:focus {
