@@ -53,7 +53,7 @@
   opacity: 0;
   transition: 0.5s ease;
   background-color: transparent;
-  border: 3px solid black;
+  border: 3px solid #5a7ab9;
 }
 
 .team__pic-area:hover .overlay-border {
