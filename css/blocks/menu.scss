@@ -1,0 +1,8 @@
+@mixin test($bg, $color) {
+  background: $bg;
+  color: $color;
+}
+
+body {
+  @include test(green, white)
+}
