@@ -1,5 +1,11 @@
 $light-blue: #61c4d9;
+$main-color: #ffffff;
 
 .header {
   display: flex;
+  color: $main-color;
+}
+
+.header__container {
+  background: $light-blue;
 }

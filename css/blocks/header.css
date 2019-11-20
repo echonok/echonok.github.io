@@ -1,4 +1,8 @@
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  color: #ffffff; }
+
+.header__container {
+  background: #61c4d9; }

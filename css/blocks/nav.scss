@@ -1,5 +1,10 @@
-span {
-	font-family: 'Alegreya';
-	font-weight: 700;
-	font-style: italic;
+$text-main-color: #ffffff;
+
+.nav__list {
+	display: flex;
+}
+
+.nav__link {
+	text-decoration: none;
+	color: $text-main-color;
 }
