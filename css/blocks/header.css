@@ -5,4 +5,10 @@
   color: #ffffff; }
 
 .header__container {
-  background: #61c4d9; }
+  background: #61c4d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.logo__pic {
+  width: 5.3rem; }

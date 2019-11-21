@@ -8,4 +8,9 @@ $main-color: #ffffff;
 
 .header__container {
   background: $light-blue;
+  display: flex;
+}
+
+.logo__pic {
+  width: 5.3rem;
 }

@@ -1,8 +1,11 @@
 $light-blue: #61c4d9;
+$text-main-color: #ffffff;
 
 .order {
   background: $light-blue;
   height: 65rem;
+  display: flex;
+  flex-direction: column;
 
   h1 {
     font-family: AlegreyaSans;
