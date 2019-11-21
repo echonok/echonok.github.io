@@ -9,6 +9,10 @@ $main-color: #ffffff;
 .header__container {
   background: $light-blue;
   display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 2.4rem 8rem;
+  
 }
 
 .logo__pic {

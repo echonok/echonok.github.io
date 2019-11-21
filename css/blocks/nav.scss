@@ -2,6 +2,14 @@ $text-main-color: #ffffff;
 
 .nav__list {
 	display: flex;
+	justify-content: space-between;
+}
+
+.nav__item {
+	padding-right: 4rem;
+	&:last-child {
+		padding-right: 0;
+	}
 }
 
 .nav__link {

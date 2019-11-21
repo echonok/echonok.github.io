@@ -8,7 +8,12 @@
   background: #61c4d9;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  justify-items: center;
+  padding: 2.4rem 8rem; }
 
 .logo__pic {
   width: 5.3rem; }
