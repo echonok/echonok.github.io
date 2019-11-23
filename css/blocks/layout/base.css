@@ -41,6 +41,8 @@ table {
 
 .wrapper {
   min-height: 100%;
+  width: 100%;
+  min-width: 940px + 20px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -62,4 +64,13 @@ table {
   -o-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
+}
+
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
 }
