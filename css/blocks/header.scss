@@ -2,7 +2,10 @@ $light-blue: #61c4d9;
 $main-color: #ffffff;
 
 .header {
-  display: flex;
+  /* position: absolute; */
+  width: 100%;
+  padding-top: 0;
+  z-index: 1;
   color: $main-color;
 }
 
@@ -10,9 +13,8 @@ $main-color: #ffffff;
   background: $light-blue;
   display: flex;
   justify-content: space-between;
-  justify-items: center;
-  padding: 2.4rem 8rem;
-  
+  align-items: center;
+  padding: 2.4rem 8rem;  
 }
 
 .logo__pic {

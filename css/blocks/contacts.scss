@@ -3,4 +3,14 @@ $text-main-color: #ffffff;
 .contacts__phone {
   color: $text-main-color;
   text-decoration: none;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+}
+
+.contacts__pic {
+  width: 1.2rem;
 }

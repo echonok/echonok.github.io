@@ -1,0 +1,52 @@
+$light-blue: #61c4d9;
+$main-color: #ffffff;
+
+.promo {
+  background-image: url("../img/back/back_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.promo__container {
+  height: 100%;
+  display: flex;
+}
+
+.promo__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo__title {
+  margin-left: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  color: $main-color;
+}
+
+.promo__subtitle {
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $main-color;
+  line-height: 1;
+}
+
+.features__list {
+  display: flex;
+}
+
+.feature__item {
+  color: $main-color;
+}

@@ -1,9 +1,15 @@
+$light-blue: #61c4d9;
+$main-color: #ffffff;
+
 @import url(./normalize.css);
+
 @import url(./blocks/layout/base.css);
 @import url(./blocks/layout/font.css);
+
 @import url(./blocks/contacts.css);
 @import url(./blocks/header.css);
 @import url(./blocks/nav.css);
 @import url(./blocks/promo.css);
 @import url(./blocks/fixed-menu.css);
+
 @import url(./blocks/menu.css);

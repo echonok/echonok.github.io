@@ -3,6 +3,7 @@ $text-main-color: #ffffff;
 .nav__list {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .nav__item {
@@ -15,4 +16,10 @@ $text-main-color: #ffffff;
 .nav__link {
 	text-decoration: none;
 	color: $text-main-color;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
 }

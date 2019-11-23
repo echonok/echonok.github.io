@@ -4,7 +4,10 @@
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .nav__item {
   padding-right: 4rem; }
@@ -13,4 +16,10 @@
 
 .nav__link {
   text-decoration: none;
-  color: #ffffff; }
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal; }
