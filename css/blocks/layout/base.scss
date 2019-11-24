@@ -52,10 +52,23 @@ table {
   margin: auto;
 }
 
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* width: 110rem; */
+  width: 100%;
+  margin: 0 auto;  
+}
+
 .container {
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   width: 110rem;
+  padding: 2.4rem 8rem;
 }
 
 .mirror {
@@ -64,13 +77,4 @@ table {
   -o-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
   transform: scale(-1, 1);
-}
-
-.section {
-  height: 100vh;
-  min-height: 650px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 2px solid black;
 }

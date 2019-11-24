@@ -1,5 +1,4 @@
-$light-blue: #61c4d9;
-$main-color: #ffffff;
+
 
 .header {
   /* position: absolute; */
@@ -10,11 +9,11 @@ $main-color: #ffffff;
 }
 
 .header__container {
-  background: $light-blue;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2.4rem 8rem;  
+  padding: 2.2rem 8rem 0;
 }
 
 .logo__pic {

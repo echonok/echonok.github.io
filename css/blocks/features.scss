@@ -1,0 +1,27 @@
+$light-blue: #61c4d9;
+$main-color: #ffffff;
+$main-back: #61c4d9;
+
+.features__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.feature__item {
+  color: $main-color;
+  display: flex;
+}
+
+.feature__desc {
+  padding-left: 1rem;
+  width: 8.5rem;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  word-wrap: break-word;
+}

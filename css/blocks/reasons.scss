@@ -1,0 +1,115 @@
+$light-blue: #61c4d9;
+$main-color: #ffffff;
+$main-back: #61c4d9;
+
+.reasons__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0d0d0d;
+  font-size: 4.8rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.reasons__subtitle {
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #666666;
+  width: 45%;
+  margin-top: 0.375rem;
+  margin-bottom: 3.4375rem; 
+}
+
+.reasons__list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 58.75rem;
+}
+
+.reasons__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 3);
+}
+
+.reasons__pic {
+  position: relative;
+  background-color: #f2f5f4;
+  border-radius: 50%;
+  border: 25px solid  #f2f5f4;
+  box-sizing: content-box;
+  width: 4.6875rem;
+  height: 4.375rem;
+  margin-bottom: 2.1875rem;
+}
+
+.reasons__icon {
+  position: absolute;
+  left: -4px;
+  top: -4px;
+  width: 4.6875rem;
+  height: 4.3125rem;
+  stroke: #2a2a29;
+  stroke-width: 1px;
+  fill: transparent;
+}
+
+.reasons__box-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reasons__short-desc {
+  font-size: 2.7rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0.9375rem;
+}
+
+.reasons__desc {
+  font-size: 1.8rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666666;
+}
+
+.reasons__item:nth-child(2)::before {
+  position: absolute;
+  content: '';
+  width: 4.1875rem;
+  height: 1.3125rem;
+  top: 18%;
+  left: -22%;
+  background: url(/icons/dots-reasons.svg);
+  background-repeat: no-repeat;
+}
+
+.reasons__item:nth-child(2)::after {
+  position: absolute;
+  content: '';
+  width: 4.1875rem;
+  height: 1.3125rem;
+  top: 18%;
+  left: 97%;
+  background: url(/icons/dots-reasons.svg);
+  background-repeat: no-repeat;
+}

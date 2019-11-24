@@ -14,10 +14,12 @@
 
   <div class="wrapper">
 
-    <header class="header">
-      <div class="container header__container">
-        <img src="./img/icons/logo.png" alt="Логотип" class="logo__pic">
-        <div class="header__wrapper">
+    <section class="section promo">
+
+      <header class="header">
+        <div class="container header__container">
+
+          <img src="./img/icons/logo.png" alt="Логотип" class="logo__pic">
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__item">
@@ -40,48 +42,143 @@
               </li>
             </ul>
           </nav>
-        </div>
-        <div class="contacts">
-          <img src="./img/icons/phone.svg" alt="телефон" class="contacts__pic">
-          <a href="tel:+78009039090" class="contacts__phone">8 800 903 90 90</a>
-        </div>
-      </div>
-    </header>
+          <div class="contacts">
+            <img src="./img/icons/phone.svg" alt="телефон" class="contacts__pic">
+            <a href="tel:+78009039090" class="contacts__phone">8 800 903 90 90</a>
+          </div>
 
-    <section class="section promo">
+        </div>
+      </header>
 
       <div class="container promo__container">
+
         <div class="promo__content">
-          <h1 class="title promo__title">натуральные шоколадные батончики</h1>
-          <div class="promo__subtitle">Наши батончики идеально подходят для
-            тех, кто следит за своим здоровьем</div>
+
+          <article class="promo__best-offer">
+            <h1 class="title promo__title">натуральные шоколадные батончики</h1>
+            <div class="promo__subtitle">Наши батончики идеально подходят для
+              тех, кто следит за своим здоровьем</div>
+            <button class="btn" type="button">заказать</button>
+          </article>
+
           <div class="promo__features">
             <ul class="features__list">
               <li class="feature__item">
-                <img src="./img/icons/leaves.png" alt="" class="feature__pic">
+                <div class="feature__pic-area">
+                  <img src="./img/icons/leaves.png" alt="" class="feature__pic">
+                </div>
                 <span class="feature__desc">100% натуральный продукт</span>
               </li>
               <li class="feature__item">
-                <img src="./img/icons/truck.png" alt="" class="feature__pic">
+                <div class="feature__pic-area">
+                  <img src="./img/icons/truck.png" alt="" class="feature__pic">
+                </div>
                 <span class="feature__desc">3-5 дней доставка по РФ</span>
               </li>
               <li class="feature__item">
-                <img src="./img/icons/ruller.png" alt="" class="feature__pic">
+                <div class="feature__pic-area">
+                  <img src="./img/icons/ruller.png" alt="" class="feature__pic">
+                </div>
                 <span class="feature__desc">Не портит фигуру</span>
               </li>
             </ul>
           </div>
+
         </div>
+
+        <img src="./img/back/bars.png" alt="батончики" class="promo__bars">
+
       </div>
 
     </section>
 
     <section class="section reasons">
+      <div class="container">
+        <h2 class="reasons__title">почему chocco?</h2>
+        <p class="reasons__subtitle">В нашем мире все происходит очень быстро, поэтому мы делаем батончики, которые
+          удобно взять с собой.</p>
+        <ul class="reasons__list">
 
+          <li class="reasons__item">
+            <div class="reasons__pic">
+              <img src="./img/icons/reasons/1.svg" alt="" class="reasons__icon">
+            </div>
+            <div class="reasons__box-desc">
+              <h2 class="reasons__short-desc">Полезно</h2>
+              <p class="reasons__desc">Натуральность - ключевое качество нашей продукции. Мы используем только природные
+                ингредиенты.</p>
+            </div>
+          </li>
+
+          <li class="reasons__item">
+            <div class="reasons__pic">
+              <img src="./img/icons/reasons/2.svg" alt="" class="reasons__icon">
+            </div>
+            <div class="reasons__box-desc">
+              <h2 class="reasons__short-desc">Вкусно</h2>
+              <p class="reasons__desc">Нежный, ненавязчивый, изысканный – так клиенты описывают вкусовые качества наших
+                батончиков.</p>
+            </div>
+          </li>
+
+          <li class="reasons__item">
+            <div class="reasons__pic">
+              <img src="./img/icons/reasons/3.svg" alt="" class="reasons__icon">
+            </div>
+            <div class="reasons__box-desc">
+              <h2 class="reasons__short-desc">Питательно</h2>
+              <p class="reasons__desc">Высокое содержание качественного белка, а также всех необходимых витаминов и
+                минералов.</p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
     </section>
 
     <section class="section reviews">
+      <div class="container">
+        <h2 class="reviews__title">отзывы</h2>
+        <div class="review">
 
+          <ul class="review__list">
+            <li class="review__item">
+              <article class="review__article">
+                <div class="review__box-avatar">
+                  <img src="./img/reviews/reviews-1.jpg" alt="avatar" class="review__avatar">
+                </div>
+                <div class="review__desc">
+                  <h4>Лучший перекус</h4>
+                  <p>Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В
+                    течение дня сижу за компьютером и часто отходить в кафе или на кухню просто не могу себе позволить.
+                    А
+                    батончик – он всегда под рукой. Это приятно и удобно.</p>
+                  <span class="review__username">Алёна Хмельницкая</span>
+                </div>
+              </article>
+            </li>
+          </ul>
+
+          <ul class="review__carrousel">
+            <li class="review__carrousel-item">
+              <a href="#" class="review__link">
+                <img src="./img/reviews/reviews-1-mini.jpg" alt="avatar" class="review__avatar--mini">
+              </a>
+            </li>
+            <li class="review__carrousel-item">
+              <a href="#" class="review__link">
+                <img src="./img/reviews/reviews-2-mini.jpg" alt="avatar" class="review__avatar--mini">
+              </a>
+            </li>
+            <li class="review__carrousel-item">
+              <a href="#" class="review__link">
+                <img src="./img/reviews/reviews-3-mini.jpg" alt="avatar" class="review__avatar--mini">
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
     </section>
 
     <ul class="fixed-menu">
@@ -109,9 +206,12 @@
       <li class="fixed-menu__item">
         <a class="fixed-menu__dot" href="#" aria-label="О нас"></a>
       </li>
+      <li class="fixed-menu__item">
+        <a class="fixed-menu__dot" href="#" aria-label="О нас"></a>
+      </li>
     </ul>
 
-  </div>
+    </section>
 
 </body>
 

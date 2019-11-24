@@ -1,8 +1,6 @@
-$light-blue: #61c4d9;
-$main-color: #ffffff;
-
 .promo {
-  background-image: url("../img/back/back_1.jpg");
+  background: $main-back;
+  background-image: url('../../img/back/back_screen_1.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -10,17 +8,17 @@ $main-color: #ffffff;
 }
 
 .promo__container {
-  height: 100%;
   display: flex;
+  flex-direction: row;
 }
 
 .promo__content {
   display: flex;
   flex-direction: column;
+  padding: 6rem 0;
 }
 
 .promo__title {
-  margin-left: 20px;
   font-size: 60px;
   font-weight: bold;
   font-stretch: normal;
@@ -32,8 +30,9 @@ $main-color: #ffffff;
 }
 
 .promo__subtitle {
-  margin-top: 20px;
-  font-size: 21px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2.1rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -43,10 +42,31 @@ $main-color: #ffffff;
   line-height: 1;
 }
 
-.features__list {
-  display: flex;
+.promo__bars {
+  margin-top: -3.4rem;
+  margin-right: -6.3rem;
+  height: 55.7rem;
 }
 
-.feature__item {
-  color: $main-color;
+.promo__features {
+  padding: 4.3rem 0;
 }
+
+.btn {
+  margin: 2.5rem 0;
+  padding: 1.75rem 3.3rem;
+  border-radius: 2.9rem;
+  background-color: $main-color;
+  border: none;
+  color: $box-shadow;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  box-shadow: 0 0 4rem rgba(0, 0, 1, 0.22);
+}
+
