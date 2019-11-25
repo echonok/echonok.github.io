@@ -299,7 +299,7 @@ table {
   padding: 6rem 0; }
 
 .promo__title {
-  font-size: calc(1.75 * 6rem);
+  font-size: 10.5rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -311,7 +311,7 @@ table {
 .promo__subtitle {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: calc(1.75 * 2.1rem);
+  font-size: 3.675rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -333,14 +333,14 @@ table {
 
 .btn {
   margin: 2.5rem 0;
-  padding: 1.75rem 3.3rem;
-  border-radius: 2.9rem;
+  padding: 3rem 6rem;
+  border-radius: 5rem;
   background-color: #ffffff;
   border: none;
   color: #0f5a47;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 1.9rem;
+  font-size: 3.325rem;
   font-weight: 800;
   font-stretch: normal;
   font-style: normal;
