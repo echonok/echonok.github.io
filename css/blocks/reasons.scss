@@ -21,7 +21,7 @@ $main-back: #61c4d9;
 }
 
 .reasons__subtitle {
-  font-size: 1.8rem;
+  font-size: 3.15rem;
   font-weight: normal;
   font-style: normal;
   text-align: center;
@@ -44,6 +44,10 @@ $main-back: #61c4d9;
   flex-direction: column;
   align-items: center;
   width: calc(100% / 3);
+  margin-right: 2rem;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .reasons__pic {
@@ -75,7 +79,7 @@ $main-back: #61c4d9;
 }
 
 .reasons__short-desc {
-  font-size: 2.7rem;
+  font-size: 4.725rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -87,7 +91,7 @@ $main-back: #61c4d9;
 }
 
 .reasons__desc {
-  font-size: 1.8rem;
+  font-size: 3.15rem;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;

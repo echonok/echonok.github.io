@@ -435,7 +435,7 @@ table {
   z-index: 2; }
 
 .reasons__subtitle {
-  font-size: 1.8rem;
+  font-size: 3.15rem;
   font-weight: normal;
   font-style: normal;
   text-align: center;
@@ -466,7 +466,10 @@ table {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: calc(100% / 3); }
+  width: calc(100% / 3);
+  margin-right: 2rem; }
+  .reasons__item:last-child {
+    margin-right: 0; }
 
 .reasons__pic {
   position: relative;
@@ -501,7 +504,7 @@ table {
   align-items: center; }
 
 .reasons__short-desc {
-  font-size: 2.7rem;
+  font-size: 4.725rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -512,7 +515,7 @@ table {
   margin-bottom: 0.9375rem; }
 
 .reasons__desc {
-  font-size: 1.8rem;
+  font-size: 3.15rem;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -572,9 +575,6 @@ table {
 .review__item {
   /* position: relative; */
   background-color: #f8faf9;
-  padding-top: 5.5%;
-  padding-bottom: 4%;
-  padding-left: 5%;
   background-image: url(/img/reviews/reviews-item-bg.png);
   background-repeat: no-repeat;
   background-position: top right; }
@@ -582,49 +582,45 @@ table {
 .review__article {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding: 3rem; }
 
 .review__box-avatar {
-  max-width: 25rem;
-  height: 25rem;
   margin-right: 1.25rem;
+  width: 50rem;
+  height: 50rem;
   overflow: hidden; }
 
 .review__avatar {
-  min-width: 100%;
+  width: 100%;
+  height: 100%;
   -o-object-fit: none;
   object-fit: none; }
 
 .review__desc {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
   padding-top: 0.6875rem;
-  max-width: 90rem; }
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal; }
   .review__desc h4 {
-    font-size: 3rem;
+    font-size: 5.25rem;
     font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: left;
     color: #323232; }
   .review__desc p {
-    font-size: 1.8rem;
+    font-size: 3.15rem;
     font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: left;
     color: #666666;
     margin-bottom: 1.3125rem;
     width: 80%; }
   .review__desc .review__username {
-    font-size: 1.8rem;
+    font-size: 3.15rem;
     font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: left;
     color: #666666; }
 
