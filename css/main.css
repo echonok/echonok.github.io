@@ -286,6 +286,9 @@ table {
   flex-direction: row; }
 
 .promo__content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,10 +320,13 @@ table {
   color: #ffffff;
   line-height: 1; }
 
-.promo__bars {
-  margin-top: -3.4rem;
-  margin-right: -9.5rem;
-  width: 132%; }
+.promo__pic-area {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1;
+  flex: 1 1; }
+
+.promo__pic {
+  width: 100%; }
 
 .promo__features {
   padding: 4.3rem 0; }
