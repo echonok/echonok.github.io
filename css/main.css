@@ -70,6 +70,17 @@ table {
   width: 100%;
   margin: 0 auto; }
 
+.section-title {
+  text-transform: uppercase;
+  font-size: 4.8rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0d0d0d; }
+
 .container {
   margin: 0 auto;
   display: -webkit-box;
@@ -79,7 +90,8 @@ table {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 110rem;
+  /* width: 110rem; */
+  width: 94%;
   padding: 2.4rem 8rem; }
 
 .mirror {
@@ -176,7 +188,7 @@ table {
 .contacts__phone {
   color: #ffffff;
   text-decoration: none;
-  font-size: 2.4rem;
+  font-size: calc(1.75 * 2.4rem);
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -184,7 +196,7 @@ table {
   letter-spacing: normal; }
 
 .contacts__pic {
-  width: 1.2rem; }
+  width: calc(1.75 * 1.2rem); }
 
 .header {
   /* position: absolute; */
@@ -210,10 +222,13 @@ table {
   padding: 2.2rem 8rem 0; }
 
 .logo__pic {
-  width: 5.3rem; }
+  width: calc(1.75 * 5.3rem); }
 
 .nav {
-  margin: 0 5rem; }
+  margin: 0 7rem;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1;
+  flex: 1 1; }
 
 .nav__list {
   display: -webkit-box;
@@ -227,14 +242,14 @@ table {
   align-items: center; }
 
 .nav__item {
-  padding-right: 2rem; }
+  padding-right: calc(1.75 * 2rem); }
   .nav__item:last-child {
     padding-right: 0; }
 
 .nav__link {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.8rem;
+  font-size: calc(1.75 * 1.8rem);
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -281,7 +296,7 @@ table {
   padding: 6rem 0; }
 
 .promo__title {
-  font-size: 6rem;
+  font-size: calc(1.75 * 6rem);
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -293,7 +308,7 @@ table {
 .promo__subtitle {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 2.1rem;
+  font-size: calc(1.75 * 2.1rem);
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -304,8 +319,8 @@ table {
 
 .promo__bars {
   margin-top: -3.4rem;
-  margin-right: -6.3rem;
-  height: 55.7rem; }
+  margin-right: -9.5rem;
+  width: 132%; }
 
 .promo__features {
   padding: 4.3rem 0; }
@@ -549,16 +564,6 @@ table {
   background-repeat: no-repeat;
   z-index: 2; }
 
-.reviews__title {
-  font-size: 4.8rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #0d0d0d; }
-
 .review__list {
   margin-bottom: 1.25rem; }
 
@@ -664,6 +669,9 @@ table {
   -o-object-position: -5.1875rem -0.6875rem;
   object-position: -5.1875rem -0.6875rem; }
 
+.team {
+  background: lightcoral; }
+
 .team__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -678,9 +686,12 @@ table {
 .team__item {
   -webkit-box-flex: 1;
   -ms-flex: 1 1;
-  flex: 1 1; }
+  flex: 1 1;
+  margin-right: 2rem; }
+  .team__item:last-child {
+    margin-right: 0; }
 
-.team__member {
+.member {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -701,3 +712,33 @@ table {
   object-fit: cover;
   width: 100%;
   height: 100%; }
+
+.member__name {
+  font-size: 2.1rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #323232; }
+
+.member__occupation {
+  font-size: 1.8rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #281e1e; }
+
+.member__description {
+  font-size: 1.8rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #666666; }

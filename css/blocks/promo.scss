@@ -32,7 +32,7 @@
 }
 
 .promo__title {
-  font-size: 6rem;
+  font-size: calc(1.75 * 6rem);
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -45,7 +45,7 @@
 .promo__subtitle {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 2.1rem;
+  font-size: calc(1.75 * 2.1rem);
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -57,8 +57,9 @@
 
 .promo__bars {
   margin-top: -3.4rem;
-  margin-right: -6.3rem;
-  height: 55.7rem;
+  margin-right: -9.5rem;
+  //height: 55.7rem;
+  width: 132%;
 }
 
 .promo__features {
