@@ -36,13 +36,10 @@
 .promo__title {
   font-size: 10.5rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1;
-  letter-spacing: normal;
-  text-transform: uppercase;
   text-align: left;
   color: $main-color;
+  margin-top: 7rem;
 }
 
 .promo__subtitle {
@@ -78,7 +75,7 @@
 }
 
 .btn {
-  margin: 2.5rem 0;
+  margin: 4.5rem 0 1rem;
   padding: 3rem 6rem;
   border-radius: 5rem;
   background-color: $main-color;

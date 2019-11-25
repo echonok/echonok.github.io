@@ -200,7 +200,6 @@ table {
   width: calc(1.75 * 1.2rem); }
 
 .header {
-  /* position: absolute; */
   width: 100%;
   padding-top: 0;
   z-index: 1;
@@ -220,7 +219,7 @@ table {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 2.2rem 8rem 0; }
+  padding: 4rem 8rem 0; }
 
 .logo__pic {
   width: calc(1.75 * 5.3rem); }
@@ -302,13 +301,10 @@ table {
 .promo__title {
   font-size: 10.5rem;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1;
-  letter-spacing: normal;
-  text-transform: uppercase;
   text-align: left;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-top: 7rem; }
 
 .promo__subtitle {
   margin-top: 1rem;
@@ -334,7 +330,7 @@ table {
   padding: 4.3rem 0; }
 
 .btn {
-  margin: 2.5rem 0;
+  margin: 4.5rem 0 1rem;
   padding: 3rem 6rem;
   border-radius: 5rem;
   background-color: #ffffff;
