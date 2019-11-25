@@ -673,9 +673,6 @@ table {
   -o-object-position: -5.1875rem -0.6875rem;
   object-position: -5.1875rem -0.6875rem; }
 
-.team {
-  background: lightcoral; }
-
 .team__list {
   display: -webkit-box;
   display: -ms-flexbox;
