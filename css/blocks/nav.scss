@@ -10,7 +10,7 @@
 }
 
 .nav__item {
-	padding-right: calc(1.75 * 2rem);
+	padding-right: 3.5rem;
 	&:last-child {
 		padding-right: 0;
 	}
@@ -19,7 +19,7 @@
 .nav__link {
 	text-decoration: none;
 	color: $text-main-color;
-  font-size: calc(1.75 * 1.8rem);
+  font-size: 3.15rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
